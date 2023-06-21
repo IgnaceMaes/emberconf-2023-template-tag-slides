@@ -13,8 +13,8 @@ transition: slide-left
 title: Getting Started with &lt;template&gt; Tag Components
 layout: intro
 fonts:
-  sans: 'Inter'
-  mono: 'JetBrains Mono'
+  sans: "Inter"
+  mono: "JetBrains Mono"
 ---
 
 # Getting Started with &lt;template&gt; Tag Components
@@ -36,7 +36,8 @@ layout: image-right
 image: 'images/me.jpeg'
 ---
 
-# Slide Title
-## Slide Subtitle
+# I'm Ignace Maes 👋
 
-* Slide bullet text
+- Senior Full-Stack Engineer at OTA Insight
+- <logos-twitter /> [@Ignace_Maes](https://twitter.com/Ignace_Maes)
+- <mdi-web /> [www.ignacemaes.com](https://ignacemaes.com/)

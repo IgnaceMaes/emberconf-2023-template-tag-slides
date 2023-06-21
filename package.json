@@ -14,5 +14,9 @@
   },
   "resolutions": {
     "shiki": "/Users/ignace/Documents/personal/projects/shiki/packages/shiki"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.33",
+    "@iconify-json/mdi": "^1.1.52"
   }
 }
