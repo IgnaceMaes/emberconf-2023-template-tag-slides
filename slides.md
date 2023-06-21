@@ -63,7 +63,6 @@ image: 'https://images.unsplash.com/photo-1606536387965-7a709e4559fe?ixlib=rb-4.
 - First-class TypeScript support
 - New Router
 - Reactivity
-  - Resources, tracked built-ins, services
 
 ---
 layout: section
