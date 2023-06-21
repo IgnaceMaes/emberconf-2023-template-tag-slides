@@ -12,10 +12,10 @@ info: |
 drawings:
   persist: false
 transition: slide-left
-title: Welcome to Slidev
+title: Getting Started with &lt;template&gt; Tag Components
 ---
 
-# Welcome to Slidev
+# Getting Started with &lt;template&gt; Tag Components
 
 Presentation slides for developers
 
