@@ -12,6 +12,9 @@ drawings:
 transition: slide-left
 title: Getting Started with &lt;template&gt; Tag Components
 layout: intro
+fonts:
+  sans: 'Inter'
+  mono: 'JetBrains Mono'
 ---
 
 # Getting Started with &lt;template&gt; Tag Components
