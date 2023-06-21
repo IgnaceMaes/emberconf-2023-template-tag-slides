@@ -65,3 +65,27 @@ image: 'https://images.unsplash.com/photo-1606536387965-7a709e4559fe?ixlib=rb-4.
 - Reactivity
   - Resources, tracked built-ins, services
 
+---
+layout: section
+---
+
+# &lt;template&gt; tag components in a nutshell
+
+---
+---
+
+# Template tag components
+### In a nutshell
+
+- The implementation of strict mode templates
+  - Imports
+  - No globals
+- New `.gjs` and `.gts` file formats
+- Allows embedding `<template>` tags in JavaScript/TypeScript
+
+```gjs
+<template>
+  {{#if x}}
+  {{/if}}
+</template>
+```
