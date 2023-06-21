@@ -19,7 +19,7 @@ fonts:
 
 # Getting Started with &lt;template&gt; Tag Components
 
-EmberConf 2023
+EmberConf 2023 - Portland, OR
 
 <div class="absolute bottom-10">
   <span class="font-700">
@@ -30,3 +30,13 @@ EmberConf 2023
 <!--
 Presenter notes
 -->
+
+---
+layout: image-right
+image: 'images/me.jpeg'
+---
+
+# Slide Title
+## Slide Subtitle
+
+* Slide bullet text
