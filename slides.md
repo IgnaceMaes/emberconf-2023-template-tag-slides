@@ -1,7 +1,5 @@
 ---
 theme: apple-basic
-background: https://source.unsplash.com/collection/94734566/1920x1080
-class: text-center
 highlighter: shiki
 lineNumbers: false
 info: |
@@ -13,27 +11,20 @@ drawings:
   persist: false
 transition: slide-left
 title: Getting Started with &lt;template&gt; Tag Components
+layout: intro
 ---
 
 # Getting Started with &lt;template&gt; Tag Components
 
-Presentation slides for developers
+EmberConf 2023
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
+<div class="absolute bottom-10">
+  <span class="font-700">
+    By Ignace Maes
   </span>
 </div>
 
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
-    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
-</div>
+
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
