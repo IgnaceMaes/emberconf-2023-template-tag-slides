@@ -39,6 +39,13 @@ image: 'images/me.jpeg'
 # I'm Ignace Maes 👋
 
 - Senior Full-Stack Engineer at OTA Insight
+- Ghent, Belgium 🇧🇪
 - <logos-github-icon style="filter: brightness(0) invert(1);"/> [@IgnaceMaes](https://github.com/IgnaceMaes)
 - <logos-twitter /> [@Ignace_Maes](https://twitter.com/Ignace_Maes)
 - <mdi-web /> [www.ignacemaes.com](https://ignacemaes.com/)
+
+---
+layout: statement
+---
+
+# Should you start using &lt;template&gt; tag components today?
