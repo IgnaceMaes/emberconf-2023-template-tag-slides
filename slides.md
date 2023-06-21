@@ -72,20 +72,40 @@ layout: section
 # &lt;template&gt; tag components in a nutshell
 
 ---
+layout: two-cols
 ---
 
 # Template tag components
 ### In a nutshell
 
 - The implementation of strict mode templates
-  - Imports
-  - No globals
+  - No implicit globals, this fallback, invocation of argument-less helpers
+  - No dynamic resolution
+  - No evals (no partials)
 - New `.gjs` and `.gts` file formats
 - Allows embedding `<template>` tags in JavaScript/TypeScript
 
+::right::
+
 ```gjs
-<template>
-  {{#if x}}
-  {{/if}}
-</template>
+import Component from '@glimmer/component';
+import { tracked } from '@glimmer/tracking';
+import { action } from '@ember/object';
+import { on } from '@ember/modifier';
+
+export default class CopyToClipboard extends Component {
+  @tracked isCopied = false;
+
+  @action
+  async copyToClipboard() {
+    await navigator.clipboard.writeText(this.args.text);
+    this.isCopied = true;
+  }
+
+  <template>
+    <button {{on 'click' this.copyToClipboard}}>
+      {{if this.isCopied 'Copied!' 'Click to copy text'}}
+    </button>
+  </template>
+}
 ```
