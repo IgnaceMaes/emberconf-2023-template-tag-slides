@@ -1,5 +1,5 @@
 ---
-theme: default
+theme: apple-basic
 highlighter: shiki
 lineNumbers: false
 info: |
@@ -19,7 +19,7 @@ fonts:
 
 # Getting Started with &lt;template&gt; Tag Components
 
-EmberConf 2023 - Portland, OR
+<span class="text-white/60 font-400 block mt-8">EmberConf 2023 - Portland, OR</span>
 
 <div class="absolute bottom-10">
   <span class="font-700">
@@ -49,3 +49,18 @@ layout: statement
 ---
 
 # Should you start using &lt;template&gt; tag components today?
+
+---
+layout: image-right
+image: 'https://images.unsplash.com/photo-1606536387965-7a709e4559fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80'
+---
+
+# Pillars of Polaris
+## Ember's next Edition
+
+- Embroider build system
+- &lt;template&gt; tags and strict mode
+- First-class TypeScript support
+- New Router TBD
+- Reactivity: Resources, tracked built-ins, services
+
