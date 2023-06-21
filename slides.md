@@ -129,19 +129,23 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
 
 Use code snippets and get the highlighting directly![^1]
 
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
+```gjs {all|2|1-6|9|all}
+import { helper } from '@ember/component/helper';
+import { modifier } from 'ember-modifier';
 
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
-}
+const plusOne = helper(([num]) => num + 1);
+
+const setScrollPosition = modifier((element, [position]) => {
+  element.scrollTop = position;
+});
+
+<template>
+  <div class="scroll-container" {{setScrollPosition @scrollPos}}>
+    {{#each @items as |item index|}}
+      Item #{{plusOne index}}: {{item}}
+    {{/each}}
+  </div>
+</template>
 ```
 
 <arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
