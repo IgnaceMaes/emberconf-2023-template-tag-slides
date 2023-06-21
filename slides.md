@@ -1,5 +1,5 @@
 ---
-theme: apple-basic
+theme: default
 highlighter: shiki
 lineNumbers: false
 info: |
