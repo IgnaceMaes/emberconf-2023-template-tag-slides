@@ -56,11 +56,12 @@ image: 'https://images.unsplash.com/photo-1606536387965-7a709e4559fe?ixlib=rb-4.
 ---
 
 # Pillars of Polaris
-## Ember's next Edition
+### Ember's next Edition
 
 - Embroider build system
-- &lt;template&gt; tags and strict mode
+- &lt;template&gt; tags components
 - First-class TypeScript support
-- New Router TBD
-- Reactivity: Resources, tracked built-ins, services
+- New Router
+- Reactivity
+  - Resources, tracked built-ins, services
 
