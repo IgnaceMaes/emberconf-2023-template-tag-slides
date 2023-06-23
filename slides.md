@@ -114,6 +114,7 @@ Demo of button
 ```hbs
 <button {{on 'click' this.copyToClipboard}}>
   {{if this.isCopied 'Copied!' 'Click to copy'}}
+  <Icon @name={{"clipboard"}} />
 </button>
 ```
 <div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.hbs</div>
@@ -141,12 +142,14 @@ layout: four-sections
 
 Imports only via frontmatter
 
-```hbs
+```hbs{all|1-4|all}
 ---
+import Icon from 'example-app/components/icon';
 import { on } from '@ember/modifier';
 ---
 <button {{on 'click' this.copyToClipboard}}>
   {{if this.isCopied 'Copied!' 'Click to copy'}}
+  <Icon @name={{"clipboard"}} />
 </button>
 ```
 <div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.hbs</div>
@@ -175,6 +178,7 @@ Single File Component (Vue/Svelte type)
 
 ```vue
 <script>
+import Icon from 'example-app/components/icon';
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import { on } from '@ember/modifier';
@@ -191,6 +195,7 @@ export default class CopyToClipboard extends Component {
 
 <button {{on 'click' this.copyToClipboard}}>
   {{if this.isCopied 'Copied!' 'Click to copy'}}
+  <Icon @name={{"clipboard"}} />
 </button>
 ```
 <div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.glimmer</div>
@@ -208,6 +213,7 @@ layout: four-sections
 Template literals
 
 ```js
+import Icon from 'example-app/components/icon';
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import { on } from '@ember/modifier';
@@ -223,6 +229,7 @@ export default class CopyToClipboard extends Component {
   static template = hbs`
     <button {{on 'click' this.copyToClipboard}}>
       {{if this.isCopied 'Copied!' 'Click to copy'}}
+      <Icon @name={{"clipboard"}} />
     </button>
   `
 }
@@ -235,6 +242,7 @@ export default class CopyToClipboard extends Component {
 Template tag component
 
 ```gjs
+import Icon from 'example-app/components/icon';
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import { on } from '@ember/modifier';
@@ -250,6 +258,7 @@ export default class CopyToClipboard extends Component {
   <template>
     <button {{on 'click' this.copyToClipboard}}>
       {{if this.isCopied 'Copied!' 'Click to copy'}}
+      <Icon @name={{"clipboard"}} />
     </button>
   </template>
 }
