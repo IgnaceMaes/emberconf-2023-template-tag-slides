@@ -85,6 +85,7 @@ image: 'https://images.unsplash.com/photo-1613951085587-cfe5d0a6cffc?ixlib=rb-4.
   - No dynamic resolution
   - No evals (no partials)
 - Goal: ...
+- Problem: How should imports be done in templates?
 
 ::right::
 
@@ -140,7 +141,7 @@ export default class CopyToClipboard extends Component {
 layout: four-sections
 ---
 
-Imports only via frontmatter
+<kbd>#1</kbd> Imports only via frontmatter
 
 ```hbs{1-4}
 ---
@@ -174,7 +175,7 @@ export default class CopyToClipboard extends Component {
 
 <v-click>
 
-Single File Component (Vue/Svelte type)
+<kbd>#2</kbd> Single File Component (Vue/Svelte type)
 
 ```vue{1,4-5,15}
 <script>
@@ -210,7 +211,7 @@ layout: four-sections
 ### Ember's next Edition -->
 
 
-Template literals
+<kbd>#3</kbd> Template literals
 
 ```js{3,4,14-19}
 import Component from '@glimmer/component';
@@ -239,7 +240,7 @@ export default class CopyToClipboard extends Component {
 
 ::topright::
 
-Template tag component
+<kbd>#4</kbd> Template tag component
 
 ```gjs{3,4,14-19}
 import Component from '@glimmer/component';
