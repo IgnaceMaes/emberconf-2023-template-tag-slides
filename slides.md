@@ -143,7 +143,7 @@ layout: four-sections
 
 <kbd>#1</kbd> Imports only via frontmatter
 
-```hbs{1-4}
+```hbs{1-4|0}
 ---
 import Icon from 'example-app/components/icon';
 import { on } from '@ember/modifier';
@@ -213,7 +213,7 @@ layout: four-sections
 
 <kbd>#3</kbd> Template literals
 
-```js{3,4,14-19}
+```js{3,4,14-19|0}
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import Icon from 'example-app/components/icon';
@@ -239,6 +239,8 @@ export default class CopyToClipboard extends Component {
 <div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.js</div>
 
 ::topright::
+
+<v-click>
 
 <kbd>#4</kbd> Template tag component
 
@@ -266,6 +268,8 @@ export default class CopyToClipboard extends Component {
 ```
 
 <div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.gjs</div>
+
+</v-click>
 
 ---
 layout: center-with-bottom-notes
