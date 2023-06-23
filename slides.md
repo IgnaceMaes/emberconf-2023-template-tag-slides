@@ -44,6 +44,8 @@ image: 'images/me.jpeg'
 - <logos-twitter /> [@Ignace_Maes](https://twitter.com/Ignace_Maes)
 - <mdi-web /> [www.ignacemaes.com](https://ignacemaes.com/)
 
+<img src="/images/otainsight.svg" class="absolute bottom-16 left-16 w-60 rounded shadow" />
+
 ---
 layout: statement
 ---
