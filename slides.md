@@ -73,47 +73,20 @@ layout: section
 # &lt;template&gt; tag components, you say?
 
 ---
-layout: two-cols
+layout: image-right
+image: 'https://images.unsplash.com/photo-1613951085587-cfe5d0a6cffc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1803&q=80'
 ---
 
-# Template tag components
-### In a nutshell
+# Strict mode templates
+### Taking a step back
 
 - The implementation of strict mode templates
   - No implicit globals, this fallback, invocation of argument-less helpers
   - No dynamic resolution
   - No evals (no partials)
-- New `.gjs` and `.gts` file formats
-- Allows embedding `<template>` tags in JavaScript/TypeScript
+- Goal: ...
 
 ::right::
-
-```hbs
-<CopyToClipboard @text={{"Copy me"}} />
-```
-
-<br />
-
-```gjs
-import Component from '@glimmer/component';
-import { tracked } from '@glimmer/tracking';
-import { on } from '@ember/modifier';
-
-export default class CopyToClipboard extends Component {
-  @tracked isCopied = false;
-
-  copyToClipboard = async () => {
-    await navigator.clipboard.writeText(this.args.text);
-    this.isCopied = true;
-  }
-
-  <template>
-    <button {{on 'click' this.copyToClipboard}}>
-      {{if this.isCopied 'Copied!' 'Click to copy'}}
-    </button>
-  </template>
-}
-```
 
 <!-- 
 Before explaining &lt;template&gt; tag components we should take a step back and see where it's coming from.
@@ -123,6 +96,44 @@ Before explaining &lt;template&gt; tag components we should take a step back and
 
 TODO: Why? Benefits?
  -->
+
+
+---
+layout: four-sections
+---
+
+
+```hbs
+<CopyToClipboard @text={{"Copy me"}} />
+```
+
+Demo of button
+
+::topright::
+
+```hbs
+<button {{on 'click' this.copyToClipboard}}>
+  {{if this.isCopied 'Copied!' 'Click to copy'}}
+</button>
+```
+<div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.hbs</div>
+<br />
+
+```js
+import Component from '@glimmer/component';
+import { tracked } from '@glimmer/tracking';
+
+export default class CopyToClipboard extends Component {
+  @tracked isCopied = false;
+
+  copyToClipboard = async () => {
+    await navigator.clipboard.writeText(this.args.text);
+    this.isCopied = true;
+  }
+}
+```
+<div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.js</div>
+
 
 ---
 layout: four-sections
