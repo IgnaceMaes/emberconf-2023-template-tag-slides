@@ -226,3 +226,20 @@ import { on } from '@ember/modifier';
   </button>
 </form>
 ```
+
+---
+layout: center-with-bottom-notes
+---
+
+# Thank you!
+
+::right::
+
+Ignace Maes<br/>
+<span class="opacity-60">Senior Full-Stack Engineer at OTA Insight</span>
+
+::left::
+
+<logos-github-icon style="filter: brightness(0) invert(1);"/> [@IgnaceMaes](https://github.com/IgnaceMaes)<br/>
+<logos-twitter /> [@Ignace_Maes](https://twitter.com/Ignace_Maes)<br/>
+<mdi-web /> [www.ignacemaes.com](https://ignacemaes.com/)<br/>
