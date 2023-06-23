@@ -19,7 +19,7 @@ fonts:
 
 # Getting Started with &lt;template&gt; Tag Components
 
-<span class="text-white/60 font-400 block mt-8">EmberConf 2023 - Portland, OR</span>
+<span class="opacity-60 font-400 block mt-8">EmberConf 2023 - Portland, OR</span>
 
 <div class="absolute bottom-10">
   <span class="font-700">
@@ -138,7 +138,7 @@ import { on } from '@ember/modifier';
   {{if this.isCopied 'Copied!' 'Click to copy'}}
 </button>
 ```
-<div class="text-white/50 text-xs text-center mt-2">copy-to-clipboard.hbs</div>
+<div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.hbs</div>
 <br />
 
 ```js
@@ -154,7 +154,7 @@ export default class CopyToClipboard extends Component {
   }
 }
 ```
-<div class="text-white/50 text-xs text-center mt-2">copy-to-clipboard.js</div>
+<div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.js</div>
 
 ::topright::
 
@@ -182,7 +182,7 @@ export default class CopyToClipboard extends Component {
   {{if this.isCopied 'Copied!' 'Click to copy'}}
 </button>
 ```
-<div class="text-white/50 text-xs text-center mt-2">copy-to-clipboard.glimmer</div>
+<div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.glimmer</div>
 
 </v-click>
 
@@ -217,7 +217,7 @@ export default class CopyToClipboard extends Component {
 }
 ```
 
-<div class="text-white/50 text-xs text-center mt-2">example.js</div>
+<div class="opacity-50 text-xs text-center mt-2">example.js</div>
 
 ::topright::
 
@@ -244,7 +244,7 @@ export default class CopyToClipboard extends Component {
 }
 ```
 
-<div class="text-white/50 text-xs text-center mt-2">example.gjs</div>
+<div class="opacity-50 text-xs text-center mt-2">example.gjs</div>
 
 ---
 layout: center-with-bottom-notes
