@@ -142,7 +142,7 @@ layout: four-sections
 
 Imports only via frontmatter
 
-```hbs{all|1-4|all}
+```hbs{1-4}
 ---
 import Icon from 'example-app/components/icon';
 import { on } from '@ember/modifier';
@@ -155,7 +155,7 @@ import { on } from '@ember/modifier';
 <div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.hbs</div>
 <br />
 
-```js
+```js{0}
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 
