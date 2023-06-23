@@ -270,7 +270,7 @@ export default class CopyToClipboard extends Component {
 layout: center-with-bottom-notes
 ---
 
-# Thank you!
+# Thank you! 🙌
 
 ::right::
 
