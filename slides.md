@@ -178,9 +178,9 @@ Single File Component (Vue/Svelte type)
 
 ```vue
 <script>
-import Icon from 'example-app/components/icon';
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
+import Icon from 'example-app/components/icon';
 import { on } from '@ember/modifier';
 
 export default class CopyToClipboard extends Component {
@@ -212,10 +212,10 @@ layout: four-sections
 
 Template literals
 
-```js
-import Icon from 'example-app/components/icon';
+```js{3,4,14-19}
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
+import Icon from 'example-app/components/icon';
 import { on } from '@ember/modifier';
 
 export default class CopyToClipboard extends Component {
@@ -241,10 +241,10 @@ export default class CopyToClipboard extends Component {
 
 Template tag component
 
-```gjs
-import Icon from 'example-app/components/icon';
+```gjs{3,4,14-19}
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
+import Icon from 'example-app/components/icon';
 import { on } from '@ember/modifier';
 
 export default class CopyToClipboard extends Component {
