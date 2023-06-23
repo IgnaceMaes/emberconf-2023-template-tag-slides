@@ -120,19 +120,50 @@ Before explaining &lt;template&gt; tag components we should take a step back and
 
 - JavaScript has always been the wild west
 - Time to grow up
+
+TODO: Why? Benefits?
  -->
 
 ---
 layout: four-sections
 ---
 
-<!-- # Proposals
-### Ember's next Edition -->
+Imports only via frontmatter
 
+```hbs
+---
+import { on } from '@ember/modifier';
+---
+<button {{on 'click' this.copyToClipboard}}>
+  {{if this.isCopied 'Copied!' 'Click to copy'}}
+</button>
+```
+<div class="text-white/50 text-xs text-center mt-2">copy-to-clipboard.hbs</div>
+<br />
 
-Template tag component
+```js
+import Component from '@glimmer/component';
+import { tracked } from '@glimmer/tracking';
 
-```gjs
+export default class CopyToClipboard extends Component {
+  @tracked isCopied = false;
+
+  copyToClipboard = async () => {
+    await navigator.clipboard.writeText(this.args.text);
+    this.isCopied = true;
+  }
+}
+```
+<div class="text-white/50 text-xs text-center mt-2">copy-to-clipboard.js</div>
+
+::topright::
+
+<v-click>
+
+Single File Component (Vue/Svelte type)
+
+```vue
+<script>
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import { on } from '@ember/modifier';
@@ -144,18 +175,24 @@ export default class CopyToClipboard extends Component {
     await navigator.clipboard.writeText(this.args.text);
     this.isCopied = true;
   }
-
-  <template>
-    <button {{on 'click' this.copyToClipboard}}>
-      {{if this.isCopied 'Copied!' 'Click to copy'}}
-    </button>
-  </template>
 }
+</script>
+
+<button {{on 'click' this.copyToClipboard}}>
+  {{if this.isCopied 'Copied!' 'Click to copy'}}
+</button>
 ```
+<div class="text-white/50 text-xs text-center mt-2">copy-to-clipboard.glimmer</div>
 
-<div class="text-white/50 text-xs text-center mt-2">example.gjs</div>
+</v-click>
 
-::topright::
+---
+layout: four-sections
+---
+
+<!-- # Proposals
+### Ember's next Edition -->
+
 
 Template literals
 
@@ -182,52 +219,32 @@ export default class CopyToClipboard extends Component {
 
 <div class="text-white/50 text-xs text-center mt-2">example.js</div>
 
-::bottomleft::
+::topright::
 
-Single File Component (Vue/Svelte type)
+Template tag component
 
-```vue
-<script>
-  import Component from '@glimmer/component';
-  import { tracked } from '@glimmer/tracking';
-
-  export default class SetUsername extends Component {
-    @tracked name;
-
-    get nameValue() {
-      return this.name ?? this.args.name;
-    }
-  }
-</script>
-
-<form {{on "submit" this.saveName}}>
-  <button type='submit' disabled={{eq this.value.length 0}}>
-    Generate
-  </button>
-</form>
-```
-
-::bottomright::
-
-Imports only via frontmatter
-
-```hbs
----
+```gjs
+import Component from '@glimmer/component';
+import { tracked } from '@glimmer/tracking';
 import { on } from '@ember/modifier';
----
 
-<form {{on "submit" this.saveName}}>
-  <label for='name'>Set username:</label>
-  <input
-    id='name'
-    value={{this.value}}
-    {{on "input" this.updateName}}
-  />
-  <button type='submit' disabled={{eq this.value.length 0}}>
-    Generate
-  </button>
-</form>
+export default class CopyToClipboard extends Component {
+  @tracked isCopied = false;
+
+  copyToClipboard = async () => {
+    await navigator.clipboard.writeText(this.args.text);
+    this.isCopied = true;
+  }
+
+  <template>
+    <button {{on 'click' this.copyToClipboard}}>
+      {{if this.isCopied 'Copied!' 'Click to copy'}}
+    </button>
+  </template>
+}
 ```
+
+<div class="text-white/50 text-xs text-center mt-2">example.gjs</div>
 
 ---
 layout: center-with-bottom-notes
