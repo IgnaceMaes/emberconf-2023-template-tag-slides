@@ -283,9 +283,13 @@ layout: default
   - Semantics
   - Learning
   - Tooling
-- `<template>` tag components came out as winner 🎉
+- `<template>` tag components came out as best overall 🎉
 
 See [Ember Template Imports blog series by Chris Krycho](https://v5.chriskrycho.com/journal/ember-template-imports/)
+
+<!-- 
+https://rfcs.emberjs.com/id/0779-first-class-component-templates/
+ -->
 
 ---
 layout: section
@@ -293,6 +297,36 @@ layout: section
 
 # Using template tag components today
 
+---
+---
+
+# Starting with template tags
+### Using the template imports addon
+
+<br />
+
+```bash
+$ pnpm add --save-dev ember-template-imports
+```
+
+- Allows defining `.gjs` and `.gts` component files
+- Can be introduced incrementally
+- Ember.js v3.27 or above
+
+---
+---
+
+# 3 types of template location
+
+- Template-only components
+- Class-based component
+- Local assignment
+
+---
+layout: section
+---
+
+# Getting the most out of template tag components
 ---
 layout: center-with-bottom-notes
 ---
