@@ -213,8 +213,8 @@ layout: four-sections
 
 <kbd>#3</kbd> Template literals
 
-```js{3,4,14-19|0}
-import Component from '@glimmer/component';
+```js{1,3,4,14-19|0}
+import Component, { hbs } from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import Icon from 'example-app/components/icon';
 import { on } from '@ember/modifier';
@@ -270,6 +270,28 @@ export default class CopyToClipboard extends Component {
 <div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.gjs</div>
 
 </v-click>
+
+---
+layout: default
+---
+
+# Comparing them all
+### And the winner is 🥁
+
+- All these solutions solve the import problem for strict mode templates
+- Difference in
+  - Semantics
+  - Learning
+  - Tooling
+- `<template>` tag components came out as winner 🎉
+
+See [Ember Template Imports blog series by Chris Krycho](https://v5.chriskrycho.com/journal/ember-template-imports/)
+
+---
+layout: section
+---
+
+# Using template tag components today
 
 ---
 layout: center-with-bottom-notes
