@@ -235,7 +235,7 @@ export default class CopyToClipboard extends Component {
 }
 ```
 
-<div class="opacity-50 text-xs text-center mt-2">example.js</div>
+<div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.js</div>
 
 ::topright::
 
@@ -264,7 +264,7 @@ export default class CopyToClipboard extends Component {
 }
 ```
 
-<div class="opacity-50 text-xs text-center mt-2">example.gjs</div>
+<div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.gjs</div>
 
 ---
 layout: center-with-bottom-notes
