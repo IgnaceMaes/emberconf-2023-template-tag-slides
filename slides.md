@@ -39,7 +39,7 @@ image: 'images/me.jpeg'
 # I'm Ignace Maes 👋
 
 - Senior Full-Stack Engineer at OTA Insight
-- Ghent, Belgium 🇧🇪
+- From Ghent, Belgium 🇧🇪
 - <logos-github-icon style="filter: brightness(0) invert(1);"/> [@IgnaceMaes](https://github.com/IgnaceMaes)
 - <logos-twitter /> [@Ignace_Maes](https://twitter.com/Ignace_Maes)
 - <mdi-web /> [www.ignacemaes.com](https://ignacemaes.com/)
@@ -108,3 +108,14 @@ export default class CopyToClipboard extends Component {
   </template>
 }
 ```
+
+---
+---
+
+# Proposals
+### Ember's next Edition
+
+- Single File Component
+- Template tag
+- hbs template literal
+- imports only

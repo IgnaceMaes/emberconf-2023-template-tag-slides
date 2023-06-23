@@ -3,3 +3,8 @@ ul ul {
   margin-top: 0 !important;
   list-style: square !important;
 }
+
+.slidev-layout h3 {
+  padding-top: 0;
+  margin-top: -0.5em;
+}
