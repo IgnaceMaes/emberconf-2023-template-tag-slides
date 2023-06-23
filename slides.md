@@ -68,7 +68,7 @@ image: 'https://images.unsplash.com/photo-1606536387965-7a709e4559fe?ixlib=rb-4.
 layout: section
 ---
 
-# &lt;template&gt; tag components in a nutshell
+# &lt;template&gt; tag components, you say?
 
 ---
 layout: two-cols
@@ -86,36 +86,143 @@ layout: two-cols
 
 ::right::
 
+```hbs
+<CopyToClipboard @text={{"Copy me"}} />
+```
+
+<br />
+
 ```gjs
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
-import { action } from '@ember/object';
 import { on } from '@ember/modifier';
 
 export default class CopyToClipboard extends Component {
   @tracked isCopied = false;
 
-  @action
-  async copyToClipboard() {
+  copyToClipboard = async () => {
     await navigator.clipboard.writeText(this.args.text);
     this.isCopied = true;
   }
 
   <template>
     <button {{on 'click' this.copyToClipboard}}>
-      {{if this.isCopied 'Copied!' 'Click to copy text'}}
+      {{if this.isCopied 'Copied!' 'Click to copy'}}
     </button>
   </template>
 }
 ```
 
+<!-- 
+Before explaining &lt;template&gt; tag components we should take a step back and see where it's coming from.
+
+- JavaScript has always been the wild west
+- Time to grow up
+ -->
+
 ---
+layout: four-sections
 ---
 
-# Proposals
-### Ember's next Edition
+<!-- # Proposals
+### Ember's next Edition -->
 
-- Single File Component
-- Template tag
-- hbs template literal
-- imports only
+
+Template tag component
+
+```gjs
+import Component from '@glimmer/component';
+import { tracked } from '@glimmer/tracking';
+import { on } from '@ember/modifier';
+
+export default class CopyToClipboard extends Component {
+  @tracked isCopied = false;
+
+  copyToClipboard = async () => {
+    await navigator.clipboard.writeText(this.args.text);
+    this.isCopied = true;
+  }
+
+  <template>
+    <button {{on 'click' this.copyToClipboard}}>
+      {{if this.isCopied 'Copied!' 'Click to copy'}}
+    </button>
+  </template>
+}
+```
+
+<div class="text-white/50 text-xs text-center mt-2">example.gjs</div>
+
+::topright::
+
+Template literals
+
+```js
+import Component from '@glimmer/component';
+import { tracked } from '@glimmer/tracking';
+import { on } from '@ember/modifier';
+
+export default class CopyToClipboard extends Component {
+  @tracked isCopied = false;
+
+  copyToClipboard = async () => {
+    await navigator.clipboard.writeText(this.args.text);
+    this.isCopied = true;
+  }
+
+  static template = hbs`
+    <button {{on 'click' this.copyToClipboard}}>
+      {{if this.isCopied 'Copied!' 'Click to copy'}}
+    </button>
+  `
+}
+```
+
+<div class="text-white/50 text-xs text-center mt-2">example.js</div>
+
+::bottomleft::
+
+Single File Component (Vue/Svelte type)
+
+```vue
+<script>
+  import Component from '@glimmer/component';
+  import { tracked } from '@glimmer/tracking';
+
+  export default class SetUsername extends Component {
+    @tracked name;
+
+    get nameValue() {
+      return this.name ?? this.args.name;
+    }
+  }
+</script>
+
+<form {{on "submit" this.saveName}}>
+  <button type='submit' disabled={{eq this.value.length 0}}>
+    Generate
+  </button>
+</form>
+```
+
+::bottomright::
+
+Imports only via frontmatter
+
+```hbs
+---
+import { on } from '@ember/modifier';
+---
+
+<form {{on "submit" this.saveName}}>
+  <label for='name'>Set username:</label>
+  <input
+    id='name'
+    value={{this.value}}
+    {{on "input" this.updateName}}
+  />
+  <button type='submit' disabled={{eq this.value.length 0}}>
+    Generate
+  </button>
+</form>
+```
