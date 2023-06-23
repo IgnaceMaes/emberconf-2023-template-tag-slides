@@ -176,7 +176,7 @@ export default class CopyToClipboard extends Component {
 
 Single File Component (Vue/Svelte type)
 
-```vue
+```vue{1,4-5,15}
 <script>
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
