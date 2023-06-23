@@ -310,7 +310,7 @@ $ pnpm add --save-dev ember-template-imports
 ```
 
 - Allows defining `.gjs` and `.gts` component files
-- Can be introduced incrementally
+- Can be adopted incrementally
 - Ember.js v3.27 or above
 
 ---
