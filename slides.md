@@ -115,7 +115,7 @@ Demo of button
 ```hbs
 <button {{on 'click' this.copyToClipboard}}>
   {{if this.isCopied 'Copied!' 'Click to copy'}}
-  <Icon @name={{"clipboard"}} />
+  <Icon @name={{'clipboard'}} />
 </button>
 ```
 <div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.hbs</div>
@@ -150,7 +150,7 @@ import { on } from '@ember/modifier';
 ---
 <button {{on 'click' this.copyToClipboard}}>
   {{if this.isCopied 'Copied!' 'Click to copy'}}
-  <Icon @name={{"clipboard"}} />
+  <Icon @name={{'clipboard'}} />
 </button>
 ```
 <div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.hbs</div>
@@ -196,7 +196,7 @@ export default class CopyToClipboard extends Component {
 
 <button {{on 'click' this.copyToClipboard}}>
   {{if this.isCopied 'Copied!' 'Click to copy'}}
-  <Icon @name={{"clipboard"}} />
+  <Icon @name={{'clipboard'}} />
 </button>
 ```
 <div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.glimmer</div>
@@ -230,7 +230,7 @@ export default class CopyToClipboard extends Component {
   static template = hbs`
     <button {{on 'click' this.copyToClipboard}}>
       {{if this.isCopied 'Copied!' 'Click to copy'}}
-      <Icon @name={{"clipboard"}} />
+      <Icon @name={{'clipboard'}} />
     </button>
   `
 }
@@ -261,7 +261,7 @@ export default class CopyToClipboard extends Component {
   <template>
     <button {{on 'click' this.copyToClipboard}}>
       {{if this.isCopied 'Copied!' 'Click to copy'}}
-      <Icon @name={{"clipboard"}} />
+      <Icon @name={{'clipboard'}} />
     </button>
   </template>
 }
