@@ -319,7 +319,17 @@ $ pnpm add --save-dev ember-template-imports
 
 - Allows defining `.gjs` and `.gts` component files
 - Can be adopted incrementally
+
+<br/>
+
+Compatibility
+
+```md
 - Ember.js v3.27 or above
+- Ember CLI v2.13 or above
+- ember-cli-htmlbars 6.0 or above
+- Node.js v12 or above
+```
 
 ---
 ---
