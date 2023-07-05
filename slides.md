@@ -48,6 +48,33 @@ From Ghent, Belgium 🇧🇪
 <img src="/images/otainsight.svg" class="absolute bottom-16 left-16 w-60 rounded shadow" />
 
 ---
+layout: image
+
+image: 'images/morpheus.jpeg'
+---
+
+<div class="my-auto text-center w-200 mx-auto">
+  <h1>
+    What if I told you<br/><br/><br/><br/><br/><br/><br/>
+    there's a new component format you can use in Ember today?
+  </h1>
+</div>
+
+<style>
+.slidev-layout {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.slidev-layout h1 {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+}
+</style>
+
+---
 layout: statement
 ---
 
