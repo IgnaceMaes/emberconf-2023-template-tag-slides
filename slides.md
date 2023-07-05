@@ -291,19 +291,24 @@ export default class CopyToClipboard extends Component {
 </v-click>
 
 ---
-layout: default
----
-### Why &lt;template&gt; tag components?
-# Comparing them all
 
-- All these solutions solve the import problem for strict mode templates
-- Difference in
+### Why &lt;template&gt; tag components?
+# And the winner is 🥁
+
+- All solutions solve the template import problem
+- Difference and impact on
   - Semantics
   - Learning
   - Tooling
-- `<template>` tag components came out as best overall 🎉
+- `<template>` tag components came out as best overall
 
-See [Ember Template Imports blog series by Chris Krycho](https://v5.chriskrycho.com/journal/ember-template-imports/)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+See [Ember Template Imports blog series](https://v5.chriskrycho.com/journal/ember-template-imports/) by Chris Krycho
 
 <!-- 
 https://rfcs.emberjs.com/id/0779-first-class-component-templates/
