@@ -399,6 +399,8 @@ Allows defining `.gjs` and `.gts` component files
 
 <!-- 
 Implemented as addon
+- provides current built tooling
+- Stable!
 
 Will be built in in the future
  -->
