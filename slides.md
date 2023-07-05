@@ -36,7 +36,7 @@ layout: image-right
 image: 'images/me.jpeg'
 ---
 
-# I'm Ignace Maes 👋
+# I'm Ignace Maes <twemoji-waving-hand /> 
 
 Senior Full-Stack Engineer at OTA Insight
 From Ghent, Belgium 🇧🇪
@@ -120,7 +120,7 @@ layout: statement
 layout: section
 ---
 
-# Why &lt;template&gt; tag components?
+# Why a new components format?
 
 <!-- 
 What got it to the point of needing a new component format.
@@ -130,7 +130,7 @@ What got it to the point of needing a new component format.
 layout: image-right
 image: 'https://images.unsplash.com/photo-1613951085587-cfe5d0a6cffc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1803&q=80'
 ---
-### Why template tag components?
+### Why a new components format?
 # Strict mode templates
 
 - The implementation of strict mode templates
@@ -345,7 +345,7 @@ Template literals - tagged templates
 
 ---
 
-### Why template tag components?
+### Why a new components format?
 # And the winner is 🥁
 
 - All solutions solve the template import problem
