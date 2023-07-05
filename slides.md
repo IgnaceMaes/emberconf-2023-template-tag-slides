@@ -160,7 +160,7 @@ layout: four-sections
 
 
 ```hbs
-<CopyToClipboard @text={{"Copy me"}} />
+<CopyToClipboard @text={{"Hello EmberConf 2023!"}} />
 ```
 
 Demo of button
