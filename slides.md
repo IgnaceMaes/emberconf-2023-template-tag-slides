@@ -84,7 +84,7 @@ image: 'https://images.unsplash.com/photo-1613951085587-cfe5d0a6cffc?ixlib=rb-4.
   - No implicit globals, this fallback, invocation of argument-less helpers
   - No dynamic resolution
   - No evals (no partials)
-- Goal: ...
+- Goal: Have everything statically resolvable
 - Problem: How should imports be done in templates?
 
 ::right::
