@@ -346,7 +346,7 @@ Template literals - tagged templates
 ---
 
 ### Why a new component format?
-# And the winner is 🥁
+# And the winner is <twemoji-drum />
 
 - All solutions solve the template import problem
 - Difference and impact on
@@ -432,7 +432,7 @@ layout: section
 layout: center-with-bottom-notes
 ---
 
-# Thank you! 🙌
+# Thank you! <twemoji-raising-hands />
 
 ::right::
 
