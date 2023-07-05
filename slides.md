@@ -138,9 +138,9 @@ image: 'https://images.unsplash.com/photo-1613951085587-cfe5d0a6cffc?ixlib=rb-4.
   - No dynamic resolution
   - No evals (no partials)
 
-**🎯 Goal:** Have everything statically resolvable
+**<twemoji-bullseye /> Goal:** Have everything statically resolvable
 
-**❓ Problem:** How should imports be done in templates?
+**<twemoji-exclamation-question-mark /> Problem:** How should imports be done in templates?
 
 ::right::
 
