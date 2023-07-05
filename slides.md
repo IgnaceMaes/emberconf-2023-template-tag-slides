@@ -71,6 +71,7 @@ image: 'images/morpheus.jpeg'
   font-size: 3rem;
   line-height: 1;
   font-weight: 700;
+  text-shadow: 2px 2px #000099;
 }
 </style>
 
