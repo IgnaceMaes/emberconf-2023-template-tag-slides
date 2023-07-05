@@ -106,6 +106,10 @@ image: 'images/recommended.png'
 
 We expect to recommend `<template>` as the default authoring format during Ember 5.x.
 
+<!-- 
+You don't need to wait until an edition is complete to start using it.
+ -->
+
 ---
 layout: statement
 ---
@@ -117,6 +121,10 @@ layout: section
 ---
 
 # Why &lt;template&gt; tag components?
+
+<!-- 
+What got it to the point of needing a new component format.
+ -->
 
 ---
 layout: image-right
