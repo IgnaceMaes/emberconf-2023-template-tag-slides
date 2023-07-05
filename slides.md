@@ -32,9 +32,16 @@ Presenter notes
 -->
 
 ---
-layout: image-right
+layout: image-left
 image: 'images/me.jpeg'
 ---
+
+<style>
+.slidev-layout {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+</style>
 
 # I'm Ignace Maes <twemoji-waving-hand /> 
 
@@ -45,7 +52,7 @@ From Ghent, Belgium <twemoji-flag-belgium />
 <logos-twitter /> [@Ignace_Maes](https://twitter.com/Ignace_Maes)<br/>
 <mdi-web /> [www.ignacemaes.com](https://ignacemaes.com/)<br/>
 
-<img src="/images/otainsight.svg" class="absolute bottom-16 left-16 w-60 rounded shadow" />
+<!-- <img src="/images/otainsight.svg" class="absolute bottom-16 left-16 w-40 rounded shadow" /> -->
 
 ---
 layout: image
