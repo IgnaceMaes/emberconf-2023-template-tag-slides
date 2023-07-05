@@ -389,8 +389,7 @@ Allows defining `.gjs` and `.gts` component files
 
 <br/>
 
-
-> **Compatibility**
+> **Compatibility** <twemoji-information class="ml-1"/> 
 > 
 > - Ember.js v3.27 or above
 > - Ember CLI v2.13 or above

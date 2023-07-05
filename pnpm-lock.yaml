@@ -25,6 +25,9 @@ devDependencies:
   '@iconify-json/mdi':
     specifier: ^1.1.52
     version: 1.1.52
+  '@iconify-json/twemoji':
+    specifier: ^1.1.11
+    version: 1.1.11
 
 packages:
 
@@ -589,6 +592,12 @@ packages:
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
+
+  /@iconify-json/twemoji@1.1.11:
+    resolution: {integrity: sha512-ZA2v2AGWPC0rxiZDLqsVD+DoYB3n5Ft5q0YYAsy9QyYvoNWSdh6Vxe5d3yUP4mSpNkE4YW96RAjiZu72uXb7kQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
 
   /@iconify/types@2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
