@@ -32,16 +32,9 @@ Presenter notes
 -->
 
 ---
-layout: image-left
+layout: speaker
 image: 'images/me.jpeg'
 ---
-
-<style>
-.slidev-layout {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-</style>
 
 # I'm Ignace Maes <twemoji-waving-hand /> 
 
