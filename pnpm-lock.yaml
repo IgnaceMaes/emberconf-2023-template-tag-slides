@@ -1,7 +1,8 @@
 lockfileVersion: '6.0'
 
-overrides:
-  shiki: ^0.14.3
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 dependencies:
   '@slidev/cli':

@@ -12,9 +12,6 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest"
   },
-  "resolutions": {
-    "shiki": "^0.14.3"
-  },
   "devDependencies": {
     "@iconify-json/logos": "^1.1.33",
     "@iconify-json/mdi": "^1.1.52"
