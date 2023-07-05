@@ -54,23 +54,33 @@ layout: statement
 # Should you start using &lt;template&gt; tag components today?
 
 ---
+layout: section
+---
+
+# Ember's next Edition
+
+---
 layout: image-right
 image: 'https://images.unsplash.com/photo-1606536387965-7a709e4559fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80'
 ---
 
-# Pillars of Polaris
 ### Ember's next Edition
+# Pillars of Polaris
 
 - Embroider build system
-- &lt;template&gt; tags components
 - First-class TypeScript support
 - New Router
 - Reactivity
+- &lt;template&gt; tags components
 
 ---
 layout: image-left
 image: 'images/recommended.png'
 ---
+
+### Ember's next Edition
+
+# State of template tag components
 
 We expect to recommend `<template>` as the default authoring format during Ember 5.x.
 
@@ -345,6 +355,15 @@ layout: section
 ---
 
 # Getting the most out of template tag components
+
+---
+
+### Getting the most out of template tag components
+
+# IDE setup
+
+- Plugins to install
+
 ---
 layout: center-with-bottom-notes
 ---
