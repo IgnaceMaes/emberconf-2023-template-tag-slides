@@ -76,12 +76,6 @@ image: 'images/morpheus.jpeg'
 </style>
 
 ---
-layout: statement
----
-
-# Should you start using &lt;template&gt; tag components today?
-
----
 layout: section
 ---
 
@@ -99,7 +93,7 @@ image: 'https://images.unsplash.com/photo-1606536387965-7a709e4559fe?ixlib=rb-4.
 - First-class TypeScript support
 - New Router
 - Reactivity
-- &lt;template&gt; tags components
+- &lt;template&gt; tag components
 
 ---
 layout: image-left
@@ -111,6 +105,12 @@ image: 'images/recommended.png'
 # State of template tag components
 
 We expect to recommend `<template>` as the default authoring format during Ember 5.x.
+
+---
+layout: statement
+---
+
+# Should you start using &lt;template&gt; tag components today?
 
 ---
 layout: section
