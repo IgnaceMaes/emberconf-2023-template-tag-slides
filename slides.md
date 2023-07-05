@@ -46,7 +46,7 @@ image: 'images/me.jpeg'
 # I'm Ignace Maes <twemoji-waving-hand /> 
 
 Senior Full-Stack Engineer at OTA Insight
-From Ghent, Belgium <twemoji-flag-belgium /> 
+From Ghent, Belgium <!-- <twemoji-flag-belgium />  -->
 
 <logos-github-icon style="filter: brightness(0) invert(1);"/> [@IgnaceMaes](https://github.com/IgnaceMaes)<br/>
 <logos-twitter /> [@Ignace_Maes](https://twitter.com/Ignace_Maes)<br/>
