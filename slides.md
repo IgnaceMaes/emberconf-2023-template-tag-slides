@@ -68,6 +68,13 @@ image: 'https://images.unsplash.com/photo-1606536387965-7a709e4559fe?ixlib=rb-4.
 - Reactivity
 
 ---
+layout: image-left
+image: 'images/recommended.png'
+---
+
+We expect to recommend `<template>` as the default authoring format during Ember 5.x.
+
+---
 layout: section
 ---
 
