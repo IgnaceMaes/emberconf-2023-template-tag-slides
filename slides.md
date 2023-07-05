@@ -96,7 +96,7 @@ image: 'https://images.unsplash.com/photo-1606536387965-7a709e4559fe?ixlib=rb-4.
 - &lt;template&gt; tag components
 
 ---
-layout: image-left
+layout: image-right
 image: 'images/recommended.png'
 ---
 
@@ -115,7 +115,6 @@ layout: statement
 ---
 
 # Should you start using &lt;template&gt; tag components today?
-
 ---
 layout: section
 ---
