@@ -88,15 +88,14 @@ We expect to recommend `<template>` as the default authoring format during Ember
 layout: section
 ---
 
-# &lt;template&gt; tag components, you say?
+# Why &lt;template&gt; tag components?
 
 ---
 layout: image-right
 image: 'https://images.unsplash.com/photo-1613951085587-cfe5d0a6cffc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1803&q=80'
 ---
-
+### Why &lt;template&gt; tag components?
 # Strict mode templates
-### Taking a step back
 
 - The implementation of strict mode templates
   - No implicit globals, this fallback, invocation of argument-less helpers
@@ -292,9 +291,8 @@ export default class CopyToClipboard extends Component {
 ---
 layout: default
 ---
-
+### Why &lt;template&gt; tag components?
 # Comparing them all
-### And the winner is 🥁
 
 - All these solutions solve the import problem for strict mode templates
 - Difference in
@@ -318,8 +316,8 @@ layout: section
 ---
 ---
 
+### Using template tag components today
 # Starting with template tags
-### Using the template imports addon
 
 <br />
 
@@ -344,6 +342,7 @@ Compatibility
 ---
 ---
 
+### Using template tag components today
 # 3 types of template location
 
 - Template-only components
