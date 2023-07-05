@@ -56,7 +56,7 @@ image: 'images/morpheus.jpeg'
 <div class="my-auto text-center w-200 mx-auto">
   <h1>
     What if I told you<br/><br/><br/><br/><br/><br/><br/>
-    there's a new component format you can use in Ember today?
+    there's a new component format in Ember you can use today?
   </h1>
 </div>
 
@@ -346,16 +346,16 @@ Template literals - tagged templates
 ---
 
 ### Why a new component format?
-# And the winner is <twemoji-drum />
+# Only one can be the winner
 
-- All solutions solve the template import problem
-- Difference and impact on
+- All solutions solve the **template import problem**
+- Different trade-offs to be made in
   - Semantics
   - Learning
   - Tooling
 - `<template>` tag components came out as best overall
+- Since RFC #779 the official path forward
 
-<br/>
 <br/>
 <br/>
 <br/>
@@ -364,6 +364,8 @@ Template literals - tagged templates
 See [Ember Template Imports blog series](https://v5.chriskrycho.com/journal/ember-template-imports/) by Chris Krycho
 
 <!-- 
+Choosing is loosing
+
 https://rfcs.emberjs.com/id/0779-first-class-component-templates/
  -->
 
