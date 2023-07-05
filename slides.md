@@ -130,7 +130,7 @@ What got it to the point of needing a new component format.
 layout: image-right
 image: 'https://images.unsplash.com/photo-1613951085587-cfe5d0a6cffc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1803&q=80'
 ---
-### Why &lt;template&gt; tag components?
+### Why template tag components?
 # Strict mode templates
 
 - The implementation of strict mode templates
@@ -158,14 +158,17 @@ TODO: Why? Benefits?
 layout: four-sections
 ---
 
-
-```hbs
-<CopyToClipboard @text={{"Hello EmberConf 2023!"}} />
-```
-
 Demo of button
 
 ::topright::
+
+```hbs{1|0}
+<CopyToClipboard @text={{"Hello EmberConf 2023!"}} />
+```
+<div class="opacity-50 text-xs text-center mt-2">application.hbs</div>
+<br />
+
+<v-click>
 
 ```hbs
 <button {{on 'click' this.copyToClipboard}}>
@@ -191,6 +194,13 @@ export default class CopyToClipboard extends Component {
 ```
 <div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.js</div>
 
+</v-click>
+
+<!-- 
+Problem:
+- where does Icon component come from: own app, addon, ...?
+- where does the modifier come from: own, addon?
+ -->
 
 ---
 layout: four-sections
@@ -326,9 +336,16 @@ export default class CopyToClipboard extends Component {
 
 </v-click>
 
+<!-- 
+Template literals - tagged templates
+- "The tag function can then perform whatever operations on these arguments you wish, and return the manipulated string"
+- fairly unknown JS feature
+- create custom identifier in front of template literal to run through a function
+ -->
+
 ---
 
-### Why &lt;template&gt; tag components?
+### Why template tag components?
 # And the winner is 🥁
 
 - All solutions solve the template import problem
