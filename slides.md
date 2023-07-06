@@ -455,13 +455,18 @@ import Icon from 'example-app/components/icon';
 
 ```gjs
 const ListItem = <template>
-  Item {{@number}}
+  Item {{number}}
 </template>
 
 <template>
-  <ListItem @number={{1}}/>
+  <ListItem @number={{1}} />
 </template>
 ```
+
+<!-- 
+With great power comes great responsibility
+- Split components
+ -->
 
 ---
 
