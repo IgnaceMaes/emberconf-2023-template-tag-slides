@@ -100,7 +100,7 @@ image: 'https://images.unsplash.com/photo-1606536387965-7a709e4559fe?ixlib=rb-4.
 ### Ember's next Edition
 # Ember 5.0 release post
 
-<img src="images/recommended.png" />
+<img src="images/recommended-highlight.png" />
 
 <!-- 
 You don't need to wait until an edition is complete to start using it.
