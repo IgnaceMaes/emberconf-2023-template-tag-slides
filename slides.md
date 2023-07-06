@@ -455,7 +455,7 @@ import Icon from 'example-app/components/icon';
 
 ```gjs
 const ListItem = <template>
-  Item {{number}}
+  Item {{at.number}}
 </template>
 
 <template>
