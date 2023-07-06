@@ -478,7 +478,7 @@ import { MAX_LIST_ITEMS } from 'example-app/utils/constants';
 
 const ListItem = <template>
   Item {{at.number}}
-</template>
+</template>;
 
 <template>
   <ListItem @number={{MAX_LIST_ITEMS}} />
@@ -538,6 +538,15 @@ Will be built in in the future
 # IDE setup
 
 - Plugins to install
+
+---
+
+### Using template tag components today
+# Using it in your browser
+
+Can't wait to try it?
+
+[https://tutorial.glimdown.com](https://tutorial.glimdown.com)
 
 ---
 layout: center-with-bottom-notes
