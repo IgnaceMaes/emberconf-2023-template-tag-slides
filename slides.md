@@ -370,43 +370,11 @@ https://rfcs.emberjs.com/id/0779-first-class-component-templates/
 layout: section
 ---
 
-# Using template tag components today
+# Anatomy of template tag components
 
 ---
----
 
-### Using template tag components today
-# Starting with template tags
-
-<br />
-
-```bash
-$ pnpm add --save-dev ember-template-imports
-```
-
-Allows defining `.gjs` and `.gts` component files
-
-<br/>
-
-> **Compatibility** <twemoji-information class="ml-1"/> 
-> 
-> - Ember.js v3.27 or above
-> - Ember CLI v2.13 or above
-> - ember-cli-htmlbars 6.0 or above
-> - Node.js v12 or above
-
-<!-- 
-Implemented as addon
-- provides current built tooling
-- Stable!
-
-Will be built in in the future
- -->
-
----
----
-
-### Using template tag components today
+### Anatomy of template tag components
 # 3 types of template location
 
 - Template-only components
@@ -417,7 +385,7 @@ Will be built in in the future
 layout: four-sections
 ---
 
-### Using template tag components today
+### Anatomy of template tag components
 # Template-only components
 
 ::topleft::
@@ -447,7 +415,7 @@ import Icon from 'example-app/components/icon';
 layout: four-sections
 ---
 
-### Using template tag components today
+### Anatomy of template tag components
 # Class-based components
 
 ::topleft::
@@ -487,6 +455,44 @@ import Icon from 'example-app/components/icon';
 - Local modifier
 - Local helper
 - Local const
+
+---
+layout: section
+---
+
+# Using template tag components today
+
+---
+---
+
+### Using template tag components today
+# Starting with template tags
+
+<br />
+
+```bash
+$ pnpm add --save-dev ember-template-imports
+```
+
+Allows defining `.gjs` and `.gts` component files
+
+<br/>
+
+> **Compatibility** <twemoji-information class="ml-1"/> 
+> 
+> - Ember.js v3.27 or above
+> - Ember CLI v2.13 or above
+> - ember-cli-htmlbars 6.0 or above
+> - Node.js v12 or above
+
+<!-- 
+Implemented as addon
+- provides current built tooling
+- Stable!
+
+Will be built in in the future
+ -->
+
 
 ---
 layout: section
