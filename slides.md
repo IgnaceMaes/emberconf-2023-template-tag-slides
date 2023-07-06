@@ -418,11 +418,15 @@ layout: four-sections
 ### Using template tag components today
 # Template-only components
 
+Before
+
 ```hbs
 Hey <Icon @name={{"wave"}} />
 ```
 
 ::topright::
+
+After
 
 ```gjs
 <template>
