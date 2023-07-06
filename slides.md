@@ -412,6 +412,25 @@ Will be built in in the future
 - Local assignment
 
 ---
+layout: four-sections
+---
+
+### Using template tag components today
+# Template-only components
+
+```hbs
+Hey <Icon @name={{"wave"}} />
+```
+
+::topright::
+
+```gjs
+<template>
+  Hey <Icon @name={{"wave"}} />
+</template>
+```
+
+---
 layout: section
 ---
 
