@@ -470,6 +470,23 @@ With great power comes great responsibility
 
 ---
 
+### Semantics of template tag components
+# Scope access to constants
+
+```gjs
+import { MAX_LIST_ITEMS } from 'example-app/utils/constants';
+
+const ListItem = <template>
+  Item {{at.number}}
+</template>
+
+<template>
+  <ListItem @number={{MAX_LIST_ITEMS}} />
+</template>
+```
+
+---
+
 # New stuff
 
 - Local modifier
