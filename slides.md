@@ -442,6 +442,52 @@ import Icon from 'example-app/components/icon';
 ```
 <div class="opacity-50 text-xs text-center mt-2">filename.gjs</div>
 
+
+---
+layout: four-sections
+---
+
+### Using template tag components today
+# Class-based components
+
+::topleft::
+
+Before
+
+```hbs
+Hey <Icon @name={{"wave"}} />
+```
+<div class="opacity-50 text-xs text-center mt-2">filename.hbs</div>
+<br />
+
+```js
+export default class X extends Component {
+
+}
+```
+<div class="opacity-50 text-xs text-center mt-2">filename.js</div>
+
+::topright::
+
+After
+
+```gjs{1,3,5}
+import Icon from 'example-app/components/icon';
+
+<template>
+  Hey <Icon @name={{"wave"}} />
+</template>
+```
+<div class="opacity-50 text-xs text-center mt-2">filename.gjs</div>
+
+---
+
+# New stuff
+
+- Local modifier
+- Local helper
+- Local const
+
 ---
 layout: section
 ---
