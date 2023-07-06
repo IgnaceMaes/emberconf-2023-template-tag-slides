@@ -450,6 +450,21 @@ import Icon from 'example-app/components/icon';
 
 ---
 
+### Semantics of template tag components
+# Multiple components
+
+```gjs
+const ListItem = <template>
+  Item {{@number}}
+</template>
+
+<template>
+  <ListItem @number={{1}}/>
+</template>
+```
+
+---
+
 # New stuff
 
 - Local modifier
@@ -495,14 +510,8 @@ Will be built in in the future
 
 
 ---
-layout: section
----
 
-# Getting the most out of template tag components
-
----
-
-### Getting the most out of template tag components
+### Using template tag components today
 
 # IDE setup
 
