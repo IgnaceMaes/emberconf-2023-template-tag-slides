@@ -427,16 +427,18 @@ Before
 ```hbs
 Hey <Icon @name={{"wave"}} />
 ```
+<div class="opacity-50 text-xs text-center mt-2">filename.hbs</div>
 
 ::topright::
 
 After
 
-```gjs
+```gjs{1,3}
 <template>
   Hey <Icon @name={{"wave"}} />
 </template>
 ```
+<div class="opacity-50 text-xs text-center mt-2">filename.gjs</div>
 
 ---
 layout: section
