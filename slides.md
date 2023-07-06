@@ -370,11 +370,11 @@ https://rfcs.emberjs.com/id/0779-first-class-component-templates/
 layout: section
 ---
 
-# Anatomy of template tag components
+# Semantics of template tag components
 
 ---
 
-### Anatomy of template tag components
+### Semantics of template tag components
 # 3 types of template location
 
 - Template-only components
@@ -385,7 +385,7 @@ layout: section
 layout: four-sections
 ---
 
-### Anatomy of template tag components
+### Semantics of template tag components
 # Template-only components
 
 ::topleft::
@@ -415,7 +415,7 @@ import Icon from 'example-app/components/icon';
 layout: four-sections
 ---
 
-### Anatomy of template tag components
+### Semantics of template tag components
 # Class-based components
 
 ::topleft::
