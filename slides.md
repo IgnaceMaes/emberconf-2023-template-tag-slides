@@ -153,7 +153,9 @@ TODO: Why? Benefits?
 layout: four-sections
 ---
 
-Demo of button
+::topleft::
+
+# Demo of button
 
 ::topright::
 
@@ -200,6 +202,8 @@ Problem:
 ---
 layout: four-sections
 ---
+
+::topleft::
 
 <kbd>#1</kbd> Imports only via frontmatter
 
@@ -267,9 +271,7 @@ export default class CopyToClipboard extends Component {
 layout: four-sections
 ---
 
-<!-- # Proposals
-### Ember's next Edition -->
-
+::topleft::
 
 <kbd>#3</kbd> Template literals
 
@@ -417,6 +419,8 @@ layout: four-sections
 
 ### Using template tag components today
 # Template-only components
+
+::topleft::
 
 Before
 
