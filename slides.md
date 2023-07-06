@@ -433,7 +433,9 @@ Hey <Icon @name={{"wave"}} />
 
 After
 
-```gjs{1,3}
+```gjs{1,3,5}
+import Icon from 'example-app/components/icon';
+
 <template>
   Hey <Icon @name={{"wave"}} />
 </template>
