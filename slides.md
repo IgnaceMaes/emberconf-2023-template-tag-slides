@@ -649,6 +649,23 @@ Can't wait to try it?
 
 
 ---
+layout: section
+---
+
+# Wrapping it up
+
+---
+
+### Wrapping it up
+# Template tag components today
+
+- Officially the next-gen component format for Ember.js
+- Already usable today
+- Allows access to local scope in templates
+- Streamlined testing experience
+
+
+---
 layout: statement
 ---
 
