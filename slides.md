@@ -451,6 +451,23 @@ import Icon from 'example-app/components/icon';
 ---
 
 ### Semantics of template tag components
+# Scope access to constants
+
+```gjs
+import { MAX_LIST_ITEMS } from 'example-app/utils/constants';
+
+<template>
+  <ListItem @number={{MAX_LIST_ITEMS}} />
+</template>
+```
+
+<!-- 
+- No need for backing class just to pass imports
+-->
+
+---
+
+### Semantics of template tag components
 # Multiple components
 
 ```gjs
@@ -467,23 +484,6 @@ const ListItem = <template>
 With great power comes great responsibility
 - Split components
  -->
-
----
-
-### Semantics of template tag components
-# Scope access to constants
-
-```gjs
-import { MAX_LIST_ITEMS } from 'example-app/utils/constants';
-
-<template>
-  <ListItem @number={{MAX_LIST_ITEMS}} />
-</template>
-```
-
-<!-- 
-- No need for backing class just to pass imports
--->
 
 ---
 
