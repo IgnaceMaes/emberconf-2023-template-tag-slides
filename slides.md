@@ -674,20 +674,6 @@ module.exports = {
 ```
 <div class="opacity-50 text-xs text-center mt-2">.prettierrc.js</div>
 
----
-
-### Using template tag components today
-
-# IDE setup
-
-VS Code
-
-- [vscode-glimmer](https://marketplace.visualstudio.com/items?itemName=chiragpat.vscode-glimmer)
-  - `chiragpat.vscode-glimmer`
-- [Glimmer Templates Syntax for VS Code](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-glimmer-syntax)
-  - `lifeart.vscode-glimmer-syntax`
-- Registers `Glimmer-JS` and `Glimmer-TS` languages to VS Code
-
 
 ---
 
@@ -717,6 +703,20 @@ Configure
 }
 ```
 <div class="opacity-50 text-xs text-center mt-2">tsconfig.json</div>
+
+---
+
+### Using template tag components today
+
+# IDE setup
+
+VS Code
+
+- [vscode-glimmer](https://marketplace.visualstudio.com/items?itemName=chiragpat.vscode-glimmer)
+  - `chiragpat.vscode-glimmer`
+- [Glimmer Templates Syntax for VS Code](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-glimmer-syntax)
+  - `lifeart.vscode-glimmer-syntax`
+- Registers `Glimmer-JS` and `Glimmer-TS` languages to VS Code
 
 
 ---
