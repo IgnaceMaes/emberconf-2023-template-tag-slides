@@ -388,6 +388,7 @@ layout: section
 ### Semantics of template tag components
 # How does it compare to the current format?
 
+- Single file for both template and JS/TS
 - Imports required for
   - Components
   - Helpers
