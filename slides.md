@@ -487,6 +487,32 @@ const ListItem = <template>
 
 ---
 
+### Semantics of template tag components
+# Testing
+
+```gjs
+import { module, test } from 'qunit';
+import { setupRenderingTest } from 'ember-qunit';
+import Icon from 'example-app/components/icon';
+
+module('Integration | Component | ', function (hooks) {
+  setupRenderingTest(hooks);
+
+  test('render stuff', async function (assert) {
+    const iconName = 'star';
+    await render(
+      <template>
+        <Icon name={{iconName}} />
+      </template>
+    );
+
+    assert.dom('[data-test-id="pagination"]').doesNotExist();
+  });
+});
+```
+
+---
+
 # New stuff
 
 - Local modifier
