@@ -639,6 +639,15 @@ module.exports = {
 
 - Plugins to install
 
+
+---
+
+### Using template tag components today
+
+# Type checking in templates
+
+Glint
+
 ---
 layout: four-sections
 ---
