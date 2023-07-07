@@ -130,18 +130,20 @@ What got it to the point of needing a new component format.
  -->
 
 ---
-layout: image-right
-image: 'https://images.unsplash.com/photo-1613951085587-cfe5d0a6cffc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1803&q=80'
----
+
 ### Why a new component format?
 # Strict mode templates
 
-- The implementation of strict mode templates
+- **<twemoji-bullseye /> Goal:** make components statically resolvable
   - No implicit globals, this fallback, invocation of argument-less helpers
   - No dynamic resolution
   - No evals (no partials)
+- **<twemoji-party-popper /> Benefits**
+  - Flexible layout for file structure
+  - Better for bundling and build tools
+  - Simplifies Ember internals and offers better performance
 
-**<twemoji-bullseye /> Goal:** Have everything statically resolvable
+<br />
 
 **<twemoji-exclamation-question-mark /> Problem:** How should imports be done in templates?
 
@@ -361,6 +363,7 @@ Template literals - tagged templates
   - Semantics
   - Learning
   - Tooling
+  - Testing
 - `<template>` tag components came out as best overall
 - Since RFC #779 the official path forward
 
