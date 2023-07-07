@@ -468,7 +468,7 @@ layout: statement
 ---
 
 ### Semantics of template tag components
-# Scope access to any imported values
+# Scope access to any imported value
 
 ```gjs
 import { MAX_LIST_ITEMS } from 'example-app/utils/constants';
