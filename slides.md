@@ -603,7 +603,14 @@ Will be built in in the future
 
 Can't wait to try it?
 
-[https://tutorial.glimdown.com](https://tutorial.glimdown.com)
+[https://tutorial.glimdown.com](https://tutorial.glimdown.com) by NullVoxPopuli
+
+
+---
+layout: statement
+---
+
+# Should you start using &lt;template&gt; tag components today?
 
 ---
 layout: center-with-bottom-notes
