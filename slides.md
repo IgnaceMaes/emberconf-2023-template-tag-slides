@@ -603,6 +603,38 @@ Will be built in in the future
 
 ### Using template tag components today
 
+# Code formatting with Prettier
+
+> **prettier-plugin-ember-template-tag** <br/>
+> A Prettier plugin for formatting Ember template tags in both .gjs and .gts files
+
+Install
+
+```sh
+pnpm add --save-dev prettier prettier-plugin-ember-template-tag
+```
+
+Configure
+
+```js
+module.exports = {
+  plugins: ['prettier-plugin-ember-template-tag'],
+  overrides: [
+    {
+      files: '*.{js,ts,gjs,gts}',
+      options: {
+        singleQuote: true,
+      },
+    },
+  ],
+};
+```
+<div class="opacity-50 text-xs text-center mt-2">.prettierrc.js</div>
+
+---
+
+### Using template tag components today
+
 # IDE setup
 
 - Plugins to install
