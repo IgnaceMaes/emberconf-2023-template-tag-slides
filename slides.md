@@ -657,7 +657,7 @@ Will be built in in the future
 Install
 
 ```sh
-pnpm add --save-dev prettier prettier-plugin-ember-template-tag
+$ pnpm add --save-dev prettier prettier-plugin-ember-template-tag
 ```
 
 Configure
@@ -696,9 +696,31 @@ VS Code
 
 ### Using template tag components today
 
-# Type checking in templates
+# Type checking in templates using Glint
 
-Glint
+- Glint provides end-to-end typechecking in templates
+- Both environment configs `ember-loose` and `ember-template-imports` are required
+
+Install
+
+```sh
+$ pnpm add --save-dev @glint/core @glint/template \
+                      @glint/environment-ember-loose @glint/environment-ember-template-imports
+```
+
+Configure
+
+```json
+{
+  "extends": "@tsconfig/ember/tsconfig.json",
+  // ...
+  "glint": {
+    "environment": ["ember-loose", "ember-template-imports"]
+  }
+}
+```
+<div class="opacity-50 text-xs text-center mt-2">tsconfig.json</div>
+
 
 ---
 layout: four-sections
