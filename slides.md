@@ -184,6 +184,9 @@ layout: four-sections
 <div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.hbs</div>
 <br />
 
+</v-click>
+<v-click>
+
 ```js
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
