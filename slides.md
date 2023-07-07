@@ -451,7 +451,7 @@ import Icon from 'example-app/components/icon';
 ---
 
 ### Semantics of template tag components
-# Scope access to constants
+# Scope access to any imported values
 
 ```gjs
 import { MAX_LIST_ITEMS } from 'example-app/utils/constants';
@@ -468,7 +468,24 @@ import { MAX_LIST_ITEMS } from 'example-app/utils/constants';
 ---
 
 ### Semantics of template tag components
-# Multiple components
+# Scope access to local values
+
+```gjs
+const currentTime = 1000;
+
+const formatTime = (time) => {
+  return intl.format(time);
+};
+
+<template>
+  {{formatTime currentTime}}
+</template>
+```
+
+---
+
+### Semantics of template tag components
+# Also locally defined components!
 
 ```gjs
 const ListItem = <template>
