@@ -597,10 +597,24 @@ Will be built in in the future
 - Plugins to install
 
 ---
+layout: four-sections
+---
 
 ### Using template tag components today
 
 # Syntax highlighting on GitHub/GitLab
+
+- Not yet supported
+- Configurable to fall back to JS/TS syntax highlighting
+  - Does an okay job!
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+::topleft::
 
 <logos-github-icon style="filter: brightness(0) invert(1);"/> GitHub
 
@@ -609,7 +623,8 @@ Will be built in in the future
 *.gts linguist-language=ts linguist-detectable
 ```
 <div class="opacity-50 text-xs text-center mt-2">.gitattributes</div>
-<br />
+
+::topright::
 
 <logos-gitlab /> GitLab
 
