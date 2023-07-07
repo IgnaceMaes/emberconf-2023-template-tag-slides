@@ -476,14 +476,14 @@ With great power comes great responsibility
 ```gjs
 import { MAX_LIST_ITEMS } from 'example-app/utils/constants';
 
-const ListItem = <template>
-  Item {{at.number}}
-</template>;
-
 <template>
   <ListItem @number={{MAX_LIST_ITEMS}} />
 </template>
 ```
+
+<!-- 
+- No need for backing class just to pass imports
+-->
 
 ---
 
@@ -512,7 +512,8 @@ module('Integration | Component | copy-to-clipboard', function (hooks) {
 ```
 
 <!-- 
-Same syntax for testing and writing components!
+- Same syntax for testing and writing components!
+- No longer needed to assign state to `this`
  -->
 
 ---
