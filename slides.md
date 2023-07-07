@@ -573,6 +573,10 @@ layout: statement
 # Styling in template tag components
 
 - Format is not opinionated about styling
+- Everything "Just Works"
+  - TailwindCSS
+  - Separate files for (S)CSS
+  - CSS modules
 
 ```gjs
 <template>
