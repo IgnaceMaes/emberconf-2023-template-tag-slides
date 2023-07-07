@@ -530,7 +530,7 @@ With great power comes great responsibility
 ### Semantics of template tag components
 # Testing
 
-```gjs{3,9-14}
+```gjs{10-14|3|9,12}
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
 import CopyToClipboard from 'example-app/components/copy-to-clipboard';
