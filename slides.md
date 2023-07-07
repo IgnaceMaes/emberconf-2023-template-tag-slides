@@ -383,11 +383,13 @@ layout: section
 ---
 
 ### Semantics of template tag components
-# 3 types of template location
+# How does it compare to the current format?
 
-- Template-only components
-- Class-based component
-- Local assignment
+- Imports required for
+  - Components
+  - Helpers
+  - Modifiers
+- Wrapping using the handlebars with a `<template>` tag
 
 ---
 layout: four-sections
@@ -403,7 +405,7 @@ Before
 ```hbs
 Hey <Icon @name={{"wave"}} />
 ```
-<div class="opacity-50 text-xs text-center mt-2">filename.hbs</div>
+<div class="opacity-50 text-xs text-center mt-2">greeting.hbs</div>
 
 ::topright::
 
@@ -416,7 +418,7 @@ import Icon from 'example-app/components/icon';
   Hey <Icon @name={{"wave"}} />
 </template>
 ```
-<div class="opacity-50 text-xs text-center mt-2">filename.gjs</div>
+<div class="opacity-50 text-xs text-center mt-2">greeting.gjs</div>
 
 
 ---
@@ -456,6 +458,13 @@ import Icon from 'example-app/components/icon';
 ```
 <div class="opacity-50 text-xs text-center mt-2">filename.gjs</div>
 
+
+---
+layout: statement
+---
+
+# But wait, there's more!
+
 ---
 
 ### Semantics of template tag components
@@ -476,7 +485,7 @@ import { MAX_LIST_ITEMS } from 'example-app/utils/constants';
 ---
 
 ### Semantics of template tag components
-# Scope access to local values
+# Scope access to local value
 
 ```gjs
 const currentTime = 1000;
