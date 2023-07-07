@@ -389,6 +389,8 @@ layout: section
 # How does it compare to the current format?
 
 - Single file for both template and JS/TS
+  - `.gjs` and `.gts` file extensions
+  - Short for Glimmer JS and Glimmet TS
 - Imports required for
   - Components
   - Helpers
