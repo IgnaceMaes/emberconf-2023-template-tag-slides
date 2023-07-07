@@ -19,11 +19,11 @@ fonts:
 
 # Getting Started with &lt;template&gt; Tag Components
 
-<span class="opacity-60 font-400 block mt-8">EmberConf 2023 - Portland, OR</span>
+<span class="opacity-60 font-400 block mt-8">By Ignace Maes</span>
 
 <div class="absolute bottom-10">
   <span class="font-700">
-    By Ignace Maes
+    EmberConf 2023 - Portland, OR
   </span>
 </div>
 
