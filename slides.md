@@ -683,11 +683,11 @@ module.exports = {
 
 # IDE setup
 
-- `vscode-glimmer`
+- [vscode-glimmer](https://marketplace.visualstudio.com/items?itemName=chiragpat.vscode-glimmer)
   - `chiragpat.vscode-glimmer`
-- Glimmer Templates Syntax for VS Code
+- [Glimmer Templates Syntax for VS Code](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-glimmer-syntax)
   - `lifeart.vscode-glimmer-syntax`
-- Registers languages to VS Code
+- Registers `Glimmer-JS` and `Glimmer-TS` languages to VS Code
 
 
 ---
