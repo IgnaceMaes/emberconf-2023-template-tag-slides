@@ -599,6 +599,29 @@ Will be built in in the future
 ---
 
 ### Using template tag components today
+
+# Syntax highlighting on GitHub/GitLab
+
+<logos-github-icon style="filter: brightness(0) invert(1);"/> GitHub
+
+```
+*.gjs linguist-language=js linguist-detectable
+*.gts linguist-language=ts linguist-detectable
+```
+<div class="opacity-50 text-xs text-center mt-2">.gitattributes</div>
+<br />
+
+<logos-gitlab /> GitLab
+
+```
+*.gjs gitlab-language=js
+*.gts gitlab-language=ts
+```
+<div class="opacity-50 text-xs text-center mt-2">.gitattributes</div>
+
+---
+
+### Using template tag components today
 # Using it in your browser
 
 Can't wait to try it?
