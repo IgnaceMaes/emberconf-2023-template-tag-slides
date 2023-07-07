@@ -562,6 +562,28 @@ module('Integration | Component | copy-to-clipboard', function (hooks) {
  -->
 
 ---
+layout: statement
+---
+
+# What about styling?
+
+---
+
+### Semantics of template tag components
+# Styling in template tag components
+
+- Format is not opinionated about styling
+
+```gjs
+<template>
+  <style>
+    .danger { color: red; }
+  </style>
+  <span class="danger">Watch out!</span>
+</template>
+```
+
+---
 layout: section
 ---
 
