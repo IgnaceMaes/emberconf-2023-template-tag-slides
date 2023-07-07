@@ -110,7 +110,15 @@ You don't need to wait until an edition is complete to start using it.
 layout: statement
 ---
 
-# Should you start using &lt;template&gt; tag components today?
+# Should you start using &lt;template&gt; tag components today?*
+
+<br />
+<v-click>
+
+\* We'll get back to this at the end
+
+</v-click>
+
 ---
 layout: section
 ---
@@ -532,14 +540,6 @@ module('Integration | Component | copy-to-clipboard', function (hooks) {
 - Same syntax for testing and writing components!
 - No longer needed to assign state to `this`
  -->
-
----
-
-# New stuff
-
-- Local modifier
-- Local helper
-- Local const
 
 ---
 layout: section
