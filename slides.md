@@ -572,7 +572,7 @@ layout: statement
 ### Semantics of template tag components
 # Styling in template tag components
 
-- Format is not opinionated about styling
+- Template tag format is not opinionated about styling
 - Everything "Just Works"
   - Separate files for (S)CSS
   - TailwindCSS
@@ -621,6 +621,12 @@ Allows defining `.gjs` and `.gts` component files
 > - Ember CLI v2.13 or above
 > - ember-cli-htmlbars 6.0 or above
 > - Node.js v12 or above
+
+<v-click>
+
+<span class="text-sm text-white/50">\* `ember-template-imports` is an exploration addon to use template tags today - this setup will change in the future</span>
+
+</v-click>
 
 <!-- 
 Implemented as addon
