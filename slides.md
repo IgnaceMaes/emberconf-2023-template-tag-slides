@@ -574,8 +574,8 @@ layout: statement
 
 - Format is not opinionated about styling
 - Everything "Just Works"
-  - TailwindCSS
   - Separate files for (S)CSS
+  - TailwindCSS
   - CSS modules
 
 ```gjs
@@ -586,6 +586,12 @@ layout: statement
   <span class="danger">Watch out!</span>
 </template>
 ```
+
+`glimmer-scoped-css`
+
+`embroider-css-modules`
+
+`ember-scoped-css`
 
 ---
 layout: section
