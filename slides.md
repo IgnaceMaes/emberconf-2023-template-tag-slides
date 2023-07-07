@@ -598,6 +598,14 @@ Implemented as addon
 Will be built in in the future
  -->
 
+---
+
+### Using template tag components today
+# Linting with ESLint
+
+- `ember-template-lint` v5.8.0 or higher
+- `eslint-plugin-ember` v11.6.0
+
 
 ---
 
