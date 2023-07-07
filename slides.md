@@ -645,7 +645,11 @@ module.exports = {
 
 # IDE setup
 
-- Plugins to install
+- `vscode-glimmer`
+  - `chiragpat.vscode-glimmer`
+- Glimmer Templates Syntax for VS Code
+  - `lifeart.vscode-glimmer-syntax`
+- Registers languages to VS Code
 
 
 ---
