@@ -389,7 +389,7 @@ layout: section
   - Components
   - Helpers
   - Modifiers
-- Wrapping using the handlebars with a `<template>` tag
+- Wrapping handlebars with the `<template>` tag
 
 ---
 layout: four-sections
