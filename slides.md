@@ -390,7 +390,7 @@ layout: section
 
 - Single file for both template and JS/TS
   - `.gjs` and `.gts` file extensions
-  - Short for Glimmer JS and Glimmet TS
+  - Short for Glimmer JS and Glimmer TS
 - Imports required for
   - Components
   - Helpers
