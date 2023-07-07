@@ -657,12 +657,12 @@ layout: section
 ---
 
 ### Wrapping it up
-# Template tag components today
+# Current state of template tag components
 
 - Officially the next-gen component format for Ember.js
 - Already usable today
 - Allows access to local scope in templates
-- Streamlined testing experience
+- Offers a streamlined testing experience
 
 
 ---
@@ -670,6 +670,13 @@ layout: statement
 ---
 
 # Should you start using &lt;template&gt; tag components today?
+
+<!--
+- If you can live with tooling not being complete, rough edges -> yes
+- Otherwise okay to hold off a bit
+  - At least you know it's coming now
+- Personally: I'm super productive with template tags/TypeScript/Glint and it's my go-to choice when starting new apps
+-->
 
 ---
 layout: center-with-bottom-notes
