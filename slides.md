@@ -271,10 +271,12 @@ export default class CopyToClipboard extends Component {
 }
 </script>
 
-<button {{on 'click' this.copyToClipboard}}>
-  {{if this.isCopied 'Copied!' 'Click to copy'}}
-  <Icon @name={{'clipboard'}} />
-</button>
+<template>
+  <button {{on 'click' this.copyToClipboard}}>
+    {{if this.isCopied 'Copied!' 'Click to copy'}}
+    <Icon @name={{'clipboard'}} />
+  </button>
+</template>
 ```
 <div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.glimmer</div>
 
