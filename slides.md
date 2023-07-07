@@ -490,26 +490,30 @@ const ListItem = <template>
 ### Semantics of template tag components
 # Testing
 
-```gjs
+```gjs{3,9-14}
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
-import Icon from 'example-app/components/icon';
+import CopyToClipboard from 'example-app/components/copy-to-clipboard';
 
-module('Integration | Component | ', function (hooks) {
+module('Integration | Component | copy-to-clipboard', function (hooks) {
   setupRenderingTest(hooks);
 
-  test('render stuff', async function (assert) {
-    const iconName = 'star';
+  test('renders succesfully', async function (assert) {
+    const text = 'Hello EmberConf 2023!';
     await render(
       <template>
-        <Icon name={{iconName}} />
+        <CopyToClipboard @text={{text}} />
       </template>
     );
 
-    assert.dom('[data-test-id="pagination"]').doesNotExist();
+    assert.dom('[data-test-id="copy-button"]').exists();
   });
 });
 ```
+
+<!-- 
+Same syntax for testing and writing components!
+ -->
 
 ---
 
