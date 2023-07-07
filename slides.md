@@ -634,6 +634,10 @@ layout: four-sections
 ```
 <div class="opacity-50 text-xs text-center mt-2">.gitattributes</div>
 
+<!-- 
+- 2000 `.gjs`/`.gts` component files required for GitHub to support
+ -->
+
 ---
 
 ### Using template tag components today
