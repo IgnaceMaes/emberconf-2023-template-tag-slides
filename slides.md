@@ -656,7 +656,7 @@ After
 ```gjs{10-14|3|9,12}
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
-import CopyToClipboard from 'app/components/copy-to-clipboard';
+import CopyToClipboard from 'components/copy-to-clippy';
 
 module('copy-to-clipboard', function (hooks) {
   setupRenderingTest(hooks);
