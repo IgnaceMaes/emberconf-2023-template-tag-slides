@@ -82,18 +82,24 @@ layout: section
 # Ember's next Edition
 
 ---
-layout: image-right
-image: 'https://images.unsplash.com/photo-1606536387965-7a709e4559fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80'
+layout: four-sections
 ---
 
 ### Ember's next Edition
 # Pillars of Polaris
+
+::topleft::
 
 - Embroider build system
 - First-class TypeScript support
 - New Router
 - Reactivity
 - &lt;template&gt; tag components
+
+::topright::
+
+![octane](images/octane.png)
+<div class="opacity-50 text-xs text-center mt-2">Can we get a Polaris Tomster?</div>
 
 ---
 
