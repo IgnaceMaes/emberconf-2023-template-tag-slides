@@ -550,14 +550,14 @@ import { FEATURE_WORLD } from 'app/utils/feature-flags';
 # Scope access to local value
 
 ```gjs
-const currentTime = 1000;
+const value = 2;
 
-const formatTime = (time) => {
-  return intl.format(time);
+const square = (number) => {
+  return number * number;
 };
 
 <template>
-  {{formatTime currentTime}}
+  The square of {{value}} is {{square value}}
 </template>
 ```
 
