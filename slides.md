@@ -500,23 +500,23 @@ layout: four-sections
 
 Before
 
-```hbs
+```hbs{1-10|0}
 Hello
 {{#if (hasFeature this.FEATURE_WORLD)}}
   World
 {{/if}}
 ```
-<div class="opacity-50 text-xs text-center mt-2">filename.hbs</div>
+<div class="opacity-50 text-xs text-center mt-2">hello-world.hbs</div>
 <br />
 
-```js
+```js{0|1-10|0}
 import { FEATURE_WORLD } from 'app/utils/feature-flags';
 
 export default class X extends Component {
   FEATURE_WORLD = FEATURE_WORLD;
 }
 ```
-<div class="opacity-50 text-xs text-center mt-2">filename.js</div>
+<div class="opacity-50 text-xs text-center mt-2">hello-world.js</div>
 
 ::topright::
 
@@ -535,7 +535,7 @@ import { FEATURE_WORLD } from 'app/utils/feature-flags';
   {{/if}}
 </template>
 ```
-<div class="opacity-50 text-xs text-center mt-2">filename.gjs</div>
+<div class="opacity-50 text-xs text-center mt-2">hello-world.gjs</div>
 
 </v-click>
 
@@ -547,7 +547,7 @@ import { FEATURE_WORLD } from 'app/utils/feature-flags';
 ---
 
 ### Semantics of template tag components
-# Scope access to local value
+# Scope access to local values
 
 ```gjs
 const value = 2;
