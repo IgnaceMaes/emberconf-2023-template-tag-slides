@@ -452,7 +452,7 @@ import Icon from 'example-app/components/icon';
 
 Which is syntactic sugar for
 
-```gjs{1,3,5}
+```gjs{3}
 import Icon from 'example-app/components/icon';
 
 export default <template>
