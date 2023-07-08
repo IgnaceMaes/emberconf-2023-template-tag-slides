@@ -403,6 +403,10 @@ layout: section
 
 # Semantics of template tag components
 
+<!--
+Building a mental model
+-->
+
 ---
 
 ### Semantics of template tag components
