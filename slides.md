@@ -219,6 +219,8 @@ export default class CopyToClipboard extends Component {
 Problem:
 - where does Icon component come from: own app, addon, ...?
 - where does the modifier come from: own, addon?
+- Arrow function binds context (this)
+  - saves two lines so code fits on my slides
  -->
 
 ---
