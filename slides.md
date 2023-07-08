@@ -99,7 +99,10 @@ layout: four-sections
 ::topright::
 
 ![octane](images/octane.png)
-<file-name>Can we get a Polaris Tomster?</file-name>
+
+<!-- 
+- Can we get a Polaris Tomster?
+-->
 
 ---
 
