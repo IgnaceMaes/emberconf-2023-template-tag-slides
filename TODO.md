@@ -4,4 +4,4 @@ TODO:
 - Glint no type registry
 - Better <style> example?
 - TypeScript examples?
-- Not working in v2 addon
+- Not working in v2 addon (separate setup)

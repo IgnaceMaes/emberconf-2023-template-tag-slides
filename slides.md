@@ -99,7 +99,7 @@ layout: four-sections
 ::topright::
 
 ![octane](images/octane.png)
-<div class="opacity-50 text-xs text-center mt-2">Can we get a Polaris Tomster?</div>
+<file-name>Can we get a Polaris Tomster?</file-name>
 
 ---
 
@@ -178,7 +178,7 @@ layout: four-sections
 ```hbs{1|0}
 <CopyToClipboard @text={{"Hello EmberConf 2023!"}} />
 ```
-<div class="opacity-50 text-xs text-center mt-2">application.hbs</div>
+<file-name>application.hbs</file-name>
 <br />
 
 <v-click>
@@ -189,7 +189,7 @@ layout: four-sections
   <Icon @name={{'clipboard'}} />
 </button>
 ```
-<div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.hbs</div>
+<file-name>copy-to-clipboard.hbs</file-name>
 <br />
 
 </v-click>
@@ -208,7 +208,7 @@ export default class CopyToClipboard extends Component {
   }
 }
 ```
-<div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.js</div>
+<file-name>copy-to-clipboard.js</file-name>
 
 </v-click>
 
@@ -236,7 +236,7 @@ import { on } from '@ember/modifier';
   <Icon @name={{'clipboard'}} />
 </button>
 ```
-<div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.hbs</div>
+<file-name>copy-to-clipboard.hbs</file-name>
 <br />
 
 ```js{0}
@@ -252,7 +252,7 @@ export default class CopyToClipboard extends Component {
   }
 }
 ```
-<div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.js</div>
+<file-name>copy-to-clipboard.js</file-name>
 
 ::topright::
 
@@ -284,7 +284,7 @@ export default class CopyToClipboard extends Component {
   </button>
 </template>
 ```
-<div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.glimmer</div>
+<file-name>copy-to-clipboard.glimmer</file-name>
 
 </v-click>
 
@@ -319,7 +319,7 @@ export default class CopyToClipboard extends Component {
 }
 ```
 
-<div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.js</div>
+<file-name>copy-to-clipboard.js</file-name>
 
 ::topright::
 
@@ -350,7 +350,7 @@ export default class CopyToClipboard extends Component {
 }
 ```
 
-<div class="opacity-50 text-xs text-center mt-2">copy-to-clipboard.gjs</div>
+<file-name>copy-to-clipboard.gjs</file-name>
 
 </v-click>
 
@@ -422,7 +422,7 @@ Before
 ```hbs
 Hey <Icon @name={{"wave"}} />
 ```
-<div class="opacity-50 text-xs text-center mt-2">greeting.hbs</div>
+<file-name>greeting.hbs</file-name>
 
 ::topright::
 
@@ -437,7 +437,7 @@ import Icon from 'example-app/components/icon';
   Hey <Icon @name={{"wave"}} />
 </template>
 ```
-<div class="opacity-50 text-xs text-center mt-2">greeting.gjs</div>
+<file-name>greeting.gjs</file-name>
 
 </v-click>
 
@@ -455,7 +455,7 @@ Before
 ```hbs
 Hey <Icon @name={{"wave"}} />
 ```
-<div class="opacity-50 text-xs text-center mt-2">filename.hbs</div>
+<file-name>filename.hbs</file-name>
 <br />
 
 ```js
@@ -463,7 +463,7 @@ export default class X extends Component {
 
 }
 ```
-<div class="opacity-50 text-xs text-center mt-2">filename.js</div>
+<file-name>filename.js</file-name>
 
 ::topright::
 
@@ -478,7 +478,7 @@ import Icon from 'example-app/components/icon';
   Hey <Icon @name={{"wave"}} />
 </template>
 ```
-<div class="opacity-50 text-xs text-center mt-2">filename.gjs</div>
+<file-name>filename.gjs</file-name>
 
 </v-click>
 
@@ -506,7 +506,7 @@ Hello
   World
 {{/if}}
 ```
-<div class="opacity-50 text-xs text-center mt-2">hello-world.hbs</div>
+<file-name>hello-world.hbs</file-name>
 <br />
 
 ```js{0|1-10|0}
@@ -516,7 +516,7 @@ export default class HelloWorld extends Component {
   FEATURE_WORLD = FEATURE_WORLD;
 }
 ```
-<div class="opacity-50 text-xs text-center mt-2">hello-world.js</div>
+<file-name>hello-world.js</file-name>
 
 ::topright::
 
@@ -535,7 +535,7 @@ import { FEATURE_WORLD } from 'app/utils/feature-flags';
   {{/if}}
 </template>
 ```
-<div class="opacity-50 text-xs text-center mt-2">hello-world.gjs</div>
+<file-name>hello-world.gjs</file-name>
 
 </v-click>
 
@@ -768,7 +768,7 @@ module.exports = {
   ],
 };
 ```
-<div class="opacity-50 text-xs text-center mt-2">.prettierrc.js</div>
+<file-name>.prettierrc.js</file-name>
 
 
 ---
@@ -798,7 +798,7 @@ Configure
   }
 }
 ```
-<div class="opacity-50 text-xs text-center mt-2">tsconfig.json</div>
+<file-name>tsconfig.json</file-name>
 
 ---
 
@@ -841,7 +841,7 @@ layout: four-sections
 *.gjs linguist-language=js linguist-detectable
 *.gts linguist-language=ts linguist-detectable
 ```
-<div class="opacity-50 text-xs text-center mt-2">.gitattributes</div>
+<file-name>.gitattributes</file-name>
 
 ::topright::
 
@@ -851,7 +851,7 @@ layout: four-sections
 *.gjs gitlab-language=js
 *.gts gitlab-language=ts
 ```
-<div class="opacity-50 text-xs text-center mt-2">.gitattributes</div>
+<file-name>.gitattributes</file-name>
 
 <!-- 
 - 2000 `.gjs`/`.gts` component files required for GitHub to support
