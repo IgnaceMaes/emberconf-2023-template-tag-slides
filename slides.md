@@ -599,7 +599,7 @@ const square = (number) => {
 
 ```gjs
 const ListItem = <template>
-  <div class="p-4 rounded text-white bg-blue/700">
+  <div class="p-4 rounded text-white bg-blue-700">
     {{yield}}
   </div>
 </template>;
