@@ -571,15 +571,26 @@ const square = (number) => {
 ### Semantics of template tag components
 # Also locally defined components!
 
+
 ```gjs
-const ListItem = <template>
-  Item {{at.number}}
+const Option = <template>
+  <option selected={{at.selected}} value={{at.value}}>
+    {{or at.title at.value}}
+  </option>
 </template>;
 
-<template>
-  <ListItem @number={{1}} />
-</template>
+export const CustomSelect = <template>
+  <select>
+    {{#each @options as |opt|}}
+      <Option
+        @value={{opt.value}}
+        @selected={{eq opt at.selectedOption}}
+      />
+    {{/each}}
+  </select>
+</template>;
 ```
+
 
 <!-- 
 With great power comes great responsibility
