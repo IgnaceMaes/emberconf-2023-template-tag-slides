@@ -561,6 +561,11 @@ const square = (number) => {
 </template>
 ```
 
+<!-- 
+- Big win for defining local values that are inherent to the component
+- Especially good for local modifiers, to replace ember-render-modifiers
+-->
+
 ---
 
 ### Semantics of template tag components
