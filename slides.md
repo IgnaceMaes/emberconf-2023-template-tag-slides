@@ -382,7 +382,7 @@ Template literals - tagged templates
   - Tooling
   - Testing
 - `<template>` tag components came out as best overall
-- Since RFC #779 the official next-gen format
+- Since [RFC #779](https://rfcs.emberjs.com/id/0779-first-class-component-templates/) the official next-gen format
 
 <br/>
 <br/>
@@ -390,12 +390,6 @@ Template literals - tagged templates
 <br/>
 
 See [Ember Template Imports blog series](https://v5.chriskrycho.com/journal/ember-template-imports/) by Chris Krycho
-
-<!-- 
-Choosing is loosing
-
-https://rfcs.emberjs.com/id/0779-first-class-component-templates/
- -->
 
 ---
 layout: section
