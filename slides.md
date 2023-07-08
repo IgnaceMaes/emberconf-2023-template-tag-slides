@@ -426,6 +426,8 @@ Hey <Icon @name={{"wave"}} />
 
 ::topright::
 
+<v-click>
+
 After
 
 ```gjs{1,3,5}
@@ -437,6 +439,7 @@ import Icon from 'example-app/components/icon';
 ```
 <div class="opacity-50 text-xs text-center mt-2">greeting.gjs</div>
 
+</v-click>
 
 ---
 layout: four-sections
@@ -464,6 +467,8 @@ export default class X extends Component {
 
 ::topright::
 
+<v-click>
+
 After
 
 ```gjs{1,3,5}
@@ -475,6 +480,7 @@ import Icon from 'example-app/components/icon';
 ```
 <div class="opacity-50 text-xs text-center mt-2">filename.gjs</div>
 
+</v-click>
 
 ---
 layout: statement
