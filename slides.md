@@ -144,9 +144,6 @@ What got it to the point of needing a new component format.
 # Strict mode templates
 
 - **Goal:** make components statically resolvable
-  - No implicit globals, this fallback, invocation of argument-less helpers
-  - No dynamic resolution
-  - No evals (no partials)
 - **Benefits**
   - Better for bundling and build tools
   - Simplifies Ember internals and offers better performance
@@ -159,6 +156,11 @@ What got it to the point of needing a new component format.
 ::right::
 
 <!-- 
+Strict mode:
+  - No implicit globals, this fallback, invocation of argument-less helpers
+  - No dynamic resolution
+  - No evals (no partials)
+
 Before explaining &lt;template&gt; tag components we should take a step back and see where it's coming from.
 
 - JavaScript has always been the wild west
