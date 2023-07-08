@@ -143,11 +143,11 @@ What got it to the point of needing a new component format.
 ### Why a new component format?
 # Strict mode templates
 
-- **<twemoji-bullseye /> Goal:** make components statically resolvable
+- **Goal:** make components statically resolvable
   - No implicit globals, this fallback, invocation of argument-less helpers
   - No dynamic resolution
   - No evals (no partials)
-- **<twemoji-party-popper /> Benefits**
+- **Benefits**
   - Flexible layout for file structure
   - Better for bundling and build tools
   - Simplifies Ember internals and offers better performance
