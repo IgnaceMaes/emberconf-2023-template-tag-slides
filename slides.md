@@ -918,6 +918,7 @@ layout: section
 - Allows access to **local scope** in templates
 - Offers a **streamlined testing experience**
 - Better tooling compatibility increases **developer experience**
+- Unlocks **performance optimizations** for bundlers
 
 
 ---
