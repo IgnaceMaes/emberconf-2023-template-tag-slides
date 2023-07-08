@@ -489,20 +489,59 @@ layout: statement
 # But wait, there's more!
 
 ---
+layout: four-sections
+---
 
 ### Semantics of template tag components
 # Scope access to any imported value
 
+
+::topleft::
+
+Before
+
+```hbs
+Hello
+{{#if (hasFeature this.FEATURE_WORLD)}}
+  World
+{{/if}}
+```
+<div class="opacity-50 text-xs text-center mt-2">filename.hbs</div>
+<br />
+
+```js
+import { FEATURE_WORLD } from 'app/utils/feature-flags';
+
+export default class X extends Component {
+  FEATURE_WORLD = FEATURE_WORLD;
+}
+```
+<div class="opacity-50 text-xs text-center mt-2">filename.js</div>
+
+::topright::
+
+<v-click>
+
+After
+
 ```gjs
-import { MAX_LIST_ITEMS } from 'example-app/utils/constants';
+import hasFeature from 'app/helpers/has-feature';
+import { FEATURE_WORLD } from 'app/utils/feature-flags';
 
 <template>
-  <ListItem @number={{MAX_LIST_ITEMS}} />
+  Hello
+  {{#if (hasFeature FEATURE_WORLD)}}
+    World
+  {{/if}}
 </template>
 ```
+<div class="opacity-50 text-xs text-center mt-2">filename.gjs</div>
+
+</v-click>
 
 <!-- 
 - No need for backing class just to pass imports
+- Refactoring now "just works"!
 -->
 
 ---
