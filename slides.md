@@ -174,7 +174,11 @@ layout: four-sections
 
 ::topleft::
 
-# Demo of button
+# Live example
+
+Text: Hello EmberConf 2023!
+
+<copy-to-clipboard />
 
 ::topright::
 
