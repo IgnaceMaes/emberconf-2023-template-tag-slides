@@ -6,3 +6,5 @@ TODO:
 - TypeScript examples?
 - Not working in v2 addon (separate setup)
 - codemod
+- no ember-cli generate?
+- no docs
