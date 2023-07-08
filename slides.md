@@ -879,7 +879,7 @@ layout: section
 # Current state of template tag components
 
 - Officially the **next-gen component format** for Ember.js
-- Already usable today
+- Already usable **today**
 - Can be adopted **incrementally**
 - Allows access to **local scope** in templates
 - Offers a **streamlined testing experience**
