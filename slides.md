@@ -857,6 +857,7 @@ layout: four-sections
 # Syntax highlighting on GitHub/GitLab
 
 - Not yet supported
+  - Currently ~1100 `.gjs`/`.gts` files on GitHub of the required 2000
 - Configurable to fall back to JS/TS syntax highlighting
   - Does an okay job!
 
