@@ -373,7 +373,7 @@ Template literals - tagged templates
 ---
 
 ### Why a new component format?
-# Only one can be the winner
+# The path forward
 
 - All solutions solve the **template import problem**
 - Different trade-offs to be made in
@@ -382,7 +382,7 @@ Template literals - tagged templates
   - Tooling
   - Testing
 - `<template>` tag components came out as best overall
-- Since RFC #779 the official path forward
+- Since RFC #779 the official next-gen format
 
 <br/>
 <br/>
