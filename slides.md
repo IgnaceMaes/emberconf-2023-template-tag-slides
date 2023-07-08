@@ -827,7 +827,7 @@ Configure
 
 ### Using template tag components today
 
-# IDE setup
+# Code editor setup
 
 VS Code
 
@@ -837,6 +837,16 @@ VS Code
   - `lifeart.vscode-glimmer-syntax`
 - Registers `Glimmer-JS` and `Glimmer-TS` languages to VS Code
 
+<br />
+<br />
+
+<v-click>
+
+> **Using another code editor?**<br />
+> Highly likely it's supported, multiple Grammar definitions are available on GitHub<br />
+> Checkout the [ember-template-imports](https://github.com/ember-template-imports/ember-template-imports) repository
+
+</v-click>
 
 ---
 layout: four-sections
