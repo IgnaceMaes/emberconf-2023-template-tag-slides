@@ -628,7 +628,7 @@ layout: four-sections
 
 Before
 
-```gjs{1-20|0}
+```gjs{3,9-12|0}
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
 import { hbs } from 'ember-cli-htmlbars';
