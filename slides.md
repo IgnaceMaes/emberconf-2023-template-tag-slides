@@ -512,7 +512,7 @@ Hello
 ```js{0|1-10|0}
 import { FEATURE_WORLD } from 'app/utils/feature-flags';
 
-export default class X extends Component {
+export default class HelloWorld extends Component {
   FEATURE_WORLD = FEATURE_WORLD;
 }
 ```
