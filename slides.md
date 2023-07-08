@@ -446,6 +446,22 @@ import Icon from 'example-app/components/icon';
 ```
 <file-name>greeting.gjs</file-name>
 
+<br />
+
+<v-click>
+
+Which is syntactic sugar for
+
+```gjs{1,3,5}
+import Icon from 'example-app/components/icon';
+
+export default <template>
+  Hey <Icon @name={{"wave"}} />
+</template>;
+```
+<file-name>greeting.gjs</file-name>
+</v-click>
+
 </v-click>
 
 ---
