@@ -587,7 +587,6 @@ const ListItem = <template>
   {{/each}}
 </template>
 ```
-<div class="opacity-50 text-xs text-center mt-2">list.gjs</div>
 
 
 <!-- 
