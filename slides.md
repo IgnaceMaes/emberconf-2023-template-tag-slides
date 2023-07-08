@@ -573,23 +573,21 @@ const square = (number) => {
 
 
 ```gjs
-const Option = <template>
-  <option selected={{at.selected}} value={{at.value}}>
-    {{or at.title at.value}}
-  </option>
+const ListItem = <template>
+  <div class="p-4 rounded text-white bg-blue/700">
+    {{yield}}
+  </div>
 </template>;
 
-export const CustomSelect = <template>
-  <select>
-    {{#each @options as |opt|}}
-      <Option
-        @value={{opt.value}}
-        @selected={{eq opt at.selectedOption}}
-      />
-    {{/each}}
-  </select>
-</template>;
+<template>
+  {{#each @items as |item|}}
+    <ListItem>
+      {{item.value}}
+    </ListItem>
+  {{/each}}
+</template>
 ```
+<div class="opacity-50 text-xs text-center mt-2">list.gjs</div>
 
 
 <!-- 
