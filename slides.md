@@ -595,19 +595,50 @@ With great power comes great responsibility
  -->
 
 ---
+layout: four-sections
+---
 
 ### Semantics of template tag components
 # Testing
 
+::topleft::
+
+Before
+
+```gjs{1-20|0}
+import { module, test } from 'qunit';
+import { setupRenderingTest } from 'ember-qunit';
+import { hbs } from 'ember-cli-htmlbars';
+
+module('copy-to-clipboard', function (hooks) {
+  setupRenderingTest(hooks);
+
+  test('renders', async function (assert) {
+    this.text = 'Hello EmberConf 2023!';
+    await render(hbs`
+      <CopyToClipboard @text={{this.text}} />
+    `);
+
+    assert.dom('[data-test-copy]').exists();
+  });
+});
+```
+
+::topright::
+
+<v-click>
+
+After
+
 ```gjs{10-14|3|9,12}
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
-import CopyToClipboard from 'example-app/components/copy-to-clipboard';
+import CopyToClipboard from 'app/components/copy-to-clipboard';
 
-module('Integration | Component | copy-to-clipboard', function (hooks) {
+module('copy-to-clipboard', function (hooks) {
   setupRenderingTest(hooks);
 
-  test('renders succesfully', async function (assert) {
+  test('renders', async function (assert) {
     const text = 'Hello EmberConf 2023!';
     await render(
       <template>
@@ -615,10 +646,11 @@ module('Integration | Component | copy-to-clipboard', function (hooks) {
       </template>
     );
 
-    assert.dom('[data-test-id="copy-button"]').exists();
+    assert.dom('[data-test-copy]').exists();
   });
 });
 ```
+</v-click>
 
 <!-- 
 - Same syntax for testing and writing components!
