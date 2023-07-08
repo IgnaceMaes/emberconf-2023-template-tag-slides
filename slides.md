@@ -148,9 +148,9 @@ What got it to the point of needing a new component format.
   - No dynamic resolution
   - No evals (no partials)
 - **Benefits**
-  - Flexible layout for file structure
   - Better for bundling and build tools
   - Simplifies Ember internals and offers better performance
+  - Flexible layout for file structure
 
 <br />
 
