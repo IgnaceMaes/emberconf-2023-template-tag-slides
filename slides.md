@@ -574,7 +574,7 @@ const square = (number) => {
 ```gjs
 const ListItem = <template>
   Item {{at.number}}
-</template>
+</template>;
 
 <template>
   <ListItem @number={{1}} />
