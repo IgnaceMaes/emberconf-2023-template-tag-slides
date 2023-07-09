@@ -797,6 +797,8 @@ module.exports = {
 
 
 ---
+layout: four-sections
+---
 
 ### Using template tag components today
 
@@ -814,16 +816,28 @@ $ pnpm add --save-dev @glint/core @glint/template \
 
 Configure
 
+::topleft::
+
 ```json
 {
   "extends": "@tsconfig/ember/tsconfig.json",
-  // ...
   "glint": {
-    "environment": ["ember-loose", "ember-template-imports"]
+    "environment": [
+      "ember-loose",
+      "ember-template-imports"
+    ]
   }
 }
 ```
 <file-name>tsconfig.json</file-name>
+
+::topright::
+
+```ts
+import "@glint/environment-ember-loose";
+import "@glint/environment-ember-template-imports";
+```
+<file-name>global.d.ts</file-name>
 
 ---
 
