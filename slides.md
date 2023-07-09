@@ -755,6 +755,8 @@ Implemented as addon
 - Stable!
 
 Will be built in in the future
+- https://github.com/emberjs/babel-plugin-ember-template-compilation
+- RFC 931
  -->
 
 ---
@@ -911,9 +913,9 @@ layout: four-sections
 ### Using template tag components today
 # Using it in your browser
 
-Can't wait to try it?
+Online REPL [https://tutorial.glimdown.com](https://tutorial.glimdown.com) by NullVoxPopuli
 
-[https://tutorial.glimdown.com](https://tutorial.glimdown.com) by NullVoxPopuli
+![Glimdown](images/glimdown.png)
 
 
 ---
