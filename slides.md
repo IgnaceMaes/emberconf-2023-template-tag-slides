@@ -930,12 +930,19 @@ layout: section
 # Usage in routes
 
 - Currently not possible to use `.gjs` for route templates
+- `setRouteComponent` RFC
 - New router will unlock this
 
 ---
 
 ### Looking ahead
-# Codemod?
+# Wishlist
+
+- Codemod
+  - LinkedIn?
+- Documentation
+- Automatic imports
+- Ember CLI blueprints
 
 ---
 layout: section
