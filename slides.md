@@ -913,10 +913,29 @@ layout: four-sections
 ### Using template tag components today
 # Using it in your browser
 
-Online REPL [https://tutorial.glimdown.com](https://tutorial.glimdown.com) by NullVoxPopuli
+Interactive tutorial [https://tutorial.glimdown.com](https://tutorial.glimdown.com) by NullVoxPopuli
 
 ![Glimdown](images/glimdown.png)
 
+
+---
+layout: section
+---
+
+# Looking ahead
+
+---
+
+### Looking ahead
+# Usage in routes
+
+- Currently not possible to use `.gjs` for route templates
+- New router will unlock this
+
+---
+
+### Looking ahead
+# Codemod?
 
 ---
 layout: section
