@@ -935,10 +935,16 @@ layout: section
 ---
 
 ### Looking ahead
+# Codemod
+
+<Tweet id="1589671595039416320" conversation="1589671173834801152"/>
+
+
+---
+
+### Looking ahead
 # Wishlist
 
-- Codemod
-  - LinkedIn?
 - Documentation
 - Automatic imports
 - Ember CLI blueprints
