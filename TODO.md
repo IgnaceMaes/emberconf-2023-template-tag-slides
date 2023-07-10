@@ -8,3 +8,4 @@ TODO:
 - codemod
 - no ember-cli generate?
 - no docs
+- automatic imports in handlebars

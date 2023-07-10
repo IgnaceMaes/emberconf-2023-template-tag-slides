@@ -386,12 +386,10 @@ Template literals - tagged templates
 - `<template>` tag components came out as best overall
 - Since [RFC #779](https://rfcs.emberjs.com/id/0779-first-class-component-templates/) the official next-gen format
 
-<br/>
-<br/>
-<br/>
-<br/>
 
-See [Ember Template Imports blog series](https://v5.chriskrycho.com/journal/ember-template-imports/) by Chris Krycho
+<span class="block absolute bottom-12 left-16 text-white/60 text-sm">
+  See <a href="https://v5.chriskrycho.com/journal/ember-template-imports/">Ember Template Imports blog series</a> by Chris Krycho
+</span>
 
 ---
 layout: section
@@ -415,7 +413,7 @@ Building a mental model
   - Components
   - Helpers
   - Modifiers
-- Wrapping handlebars with the `<template>` tag
+- Wrapping glimmer template with the `<template>` tag
 
 ---
 layout: four-sections
