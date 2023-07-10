@@ -928,7 +928,7 @@ layout: section
 ### Looking ahead
 # Usage in routes
 
-- Currently not possible to use `.gjs` for route templates
+- Currently not possible to use `.gjs`/`.gts` for route templates
 - `setRouteComponent` RFC
 - New router will unlock this
 
