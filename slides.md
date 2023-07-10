@@ -945,9 +945,9 @@ layout: section
 ### Looking ahead
 # Wishlist
 
-- Documentation
-- Automatic imports
+- Automatic imports in template
 - Ember CLI blueprints
+- Documentation
 
 ---
 layout: section
