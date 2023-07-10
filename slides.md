@@ -615,6 +615,9 @@ const ListItem = <template>
 <!-- 
 With great power comes great responsibility
 - Split components
+- Like you can split functions, lower barrier
+- Seen components get hude overtime
+- Don't overuse
  -->
 
 ---
