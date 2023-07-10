@@ -853,6 +853,7 @@ VS Code
 - [vscode-glimmer](https://marketplace.visualstudio.com/items?itemName=chiragpat.vscode-glimmer)
   - `chiragpat.vscode-glimmer`
 - Registers `Glimmer-JS` and `Glimmer-TS` languages to VS Code
+- Adds syntax highlighting
 
 <br />
 <br />
@@ -861,7 +862,7 @@ VS Code
 
 > **Using another code editor?**<br />
 > Highly likely it's supported, multiple Grammar definitions are available on GitHub<br />
-> Checkout the [ember-template-imports](https://github.com/ember-template-imports/ember-template-imports) repository
+> Checkout the [ember-template-imports](https://github.com/ember-template-imports/ember-template-imports) GitHub repository
 
 </v-click>
 
