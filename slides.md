@@ -384,7 +384,7 @@ Template literals - tagged templates
   - Tooling
   - Testing
 - `<template>` tag components came out as best overall
-- Since [RFC #779](https://rfcs.emberjs.com/id/0779-first-class-component-templates/) the official next-gen format
+- Since [RFC #779](https://rfcs.emberjs.com/id/0779-first-class-component-templates/) the accepted next-gen format
 
 
 <span class="block absolute bottom-12 left-16 text-white/60 text-sm">
