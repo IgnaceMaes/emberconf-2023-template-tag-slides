@@ -813,8 +813,7 @@ layout: four-sections
 Install
 
 ```sh
-$ pnpm add --save-dev @glint/core @glint/template \
-                      @glint/environment-ember-loose @glint/environment-ember-template-imports
+$ pnpm add --save-dev @glint/environment-ember-template-imports
 ```
 
 Configure
