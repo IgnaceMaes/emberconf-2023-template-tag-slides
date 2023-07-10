@@ -781,7 +781,7 @@ Will be built in in the future
 Install
 
 ```sh
-$ pnpm add --save-dev prettier prettier-plugin-ember-template-tag
+$ pnpm add --save-dev prettier-plugin-ember-template-tag
 ```
 
 Configure

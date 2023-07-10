@@ -9,3 +9,5 @@ TODO:
 - no ember-cli generate?
 - no docs
 - automatic imports in handlebars
+
+- addon author section/using addons
