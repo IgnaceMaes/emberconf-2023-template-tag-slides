@@ -852,8 +852,6 @@ VS Code
 
 - [vscode-glimmer](https://marketplace.visualstudio.com/items?itemName=chiragpat.vscode-glimmer)
   - `chiragpat.vscode-glimmer`
-- [Glimmer Templates Syntax for VS Code](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-glimmer-syntax)
-  - `lifeart.vscode-glimmer-syntax`
 - Registers `Glimmer-JS` and `Glimmer-TS` languages to VS Code
 
 <br />
