@@ -761,17 +761,9 @@ Will be built in in the future
 
 - `ember-template-imports` is an exploration addon to use template tags today
 - new `content-tag` package
-  - Preprocessor for embedding other content and rewriting to valid JS
+  - Generic preprocessor for embedding other content and rewriting to valid JS
   - Written in Rust on top of Speedy Web Compiler (SWC)
 - No syntactical impact for end consumer
-
-<br/>
-<br/>
-
-> **README**<br/>
-> `content-tag` is a preprocessor for JS files that are using the content-tag proposal. This originated with Ember.js' GJS and GTS functionality.
-> <br/>
-> This preprocessor can be used to transform files using the content-tag spec to standard JS. It is built on top of swc using Rust and is deployed as a wasm package.
 
 ---
 
