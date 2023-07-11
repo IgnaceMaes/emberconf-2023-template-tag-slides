@@ -765,7 +765,10 @@ Will be built in in the future
 ### Using template tag components today
 # Underlying implementation *will* change
 
-- `content-tag` package
+- `ember-template-imports` is an exploration addon to use template tags today
+- new `content-tag` package
+  - Preprocessor for embedding other content and rewriting to valid JS
+  - Written in Rust on top of Speedy Web Compiler (SWC)
 - No syntax impact for you as end consumer
 
 <br/>
