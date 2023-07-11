@@ -763,6 +763,22 @@ Will be built in in the future
 ---
 
 ### Using template tag components today
+# Underlying implementation *will* change
+
+- `content-tag` package
+- No syntax impact for you as end consumer
+
+<br/>
+<br/>
+
+> **README**<br/>
+> `content-tag` is a preprocessor for JS files that are using the content-tag proposal. This originated with Ember.js' GJS and GTS functionality.
+> <br/>
+> This preprocessor can be used to transform files using the content-tag spec to standard JS. It is built on top of swc using Rust and is deployed as a wasm package.
+
+---
+
+### Using template tag components today
 # Linting with ESLint
 
 - `ember-template-lint` v5.8.0 or higher
