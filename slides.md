@@ -769,7 +769,7 @@ Will be built in in the future
 - new `content-tag` package
   - Preprocessor for embedding other content and rewriting to valid JS
   - Written in Rust on top of Speedy Web Compiler (SWC)
-- No syntax impact for you as end consumer
+- No syntactical impact for end consumer
 
 <br/>
 <br/>
