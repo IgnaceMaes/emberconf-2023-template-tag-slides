@@ -514,7 +514,7 @@ export default class CopyToClipboard extends Component {
 
 After
 
-```gjs
+```gjs{3-4,14-19}
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import Icon from 'example-app/components/icon';
