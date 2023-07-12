@@ -801,7 +801,7 @@ Will be built in in the future
 # Underlying implementation *will* change
 
 - `ember-template-imports` is an exploration addon to use template tags today
-- `content-tag` spec for generalizing embedding
+- Content tag spec for generalizing embedding
   - enables future design extensions, e.g. `<style>` for scoped CSS or `<query>` for GraphQL
   - Framework agnostic: other tools could reuse this format
 - new `content-tag` package
