@@ -804,7 +804,7 @@ Will be built in in the future
 - Content tag spec for generalizing embedding
   - Enables future design extensions, e.g. `<style>` for scoped CSS or `<query>` for GraphQL
   - Framework agnostic: other tools could reuse this format
-- new `content-tag` package
+- New `content-tag` package
   - Preprocessor for rewriting to valid JS
   - Written in Rust on top of Speedy Web Compiler (SWC)
 - No syntactical impact for end consumer
