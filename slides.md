@@ -485,17 +485,28 @@ layout: four-sections
 Before
 
 ```hbs
-Hey <Icon @name={{"waving-hand"}} />
+<button {{on 'click' this.copyToClipboard}}>
+  {{if this.isCopied 'Copied!' 'Click to copy'}}
+  <Icon @name={{'clipboard'}} />
+</button>
 ```
-<file-name>filename.hbs</file-name>
+<file-name>copy-to-clipboard.hbs</file-name>
 <br />
 
 ```js
-export default class X extends Component {
+import Component from '@glimmer/component';
+import { tracked } from '@glimmer/tracking';
 
+export default class CopyToClipboard extends Component {
+  @tracked isCopied = false;
+
+  copyToClipboard = async () => {
+    await navigator.clipboard.writeText(this.args.text);
+    this.isCopied = true;
+  }
 }
 ```
-<file-name>filename.js</file-name>
+<file-name>copy-to-clipboard.js</file-name>
 
 ::topright::
 
@@ -503,14 +514,29 @@ export default class X extends Component {
 
 After
 
-```gjs{1,3,5}
+```gjs
+import Component from '@glimmer/component';
+import { tracked } from '@glimmer/tracking';
 import Icon from 'example-app/components/icon';
+import { on } from '@ember/modifier';
 
-<template>
-  Hey <Icon @name={{"waving-hand"}} />
-</template>
+export default class CopyToClipboard extends Component {
+  @tracked isCopied = false;
+
+  copyToClipboard = async () => {
+    await navigator.clipboard.writeText(this.args.text);
+    this.isCopied = true;
+  }
+
+  <template>
+    <button {{on 'click' this.copyToClipboard}}>
+      {{if this.isCopied 'Copied!' 'Click to copy'}}
+      <Icon @name={{'clipboard'}} />
+    </button>
+  </template>
+}
 ```
-<file-name>filename.gjs</file-name>
+<file-name>copy-to-clipboard.gjs</file-name>
 
 </v-click>
 
