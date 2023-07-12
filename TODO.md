@@ -12,5 +12,6 @@ TODO:
 
 - addon author section/using addons
 - No more Jw::Button
+  - folder namespace syntax
   -> Button or JwButton
   - Autocomplete by class name
