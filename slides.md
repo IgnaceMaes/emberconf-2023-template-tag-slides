@@ -760,10 +760,21 @@ Will be built in in the future
 # Underlying implementation *will* change
 
 - `ember-template-imports` is an exploration addon to use template tags today
+- `content-tag` spec for generalizing embedding
+  - enables future design extensions, e.g. `<style>` for scoped CSS or `<query>` for GraphQL
+  - Framework agnostic: other tools could reuse this format
 - new `content-tag` package
-  - Generic preprocessor for embedding other content and rewriting to valid JS
+  - Preprocessor for rewriting to valid JS
   - Written in Rust on top of Speedy Web Compiler (SWC)
 - No syntactical impact for end consumer
+
+<!-- 
+to make it easy for tooling authors to know when they have implemented the support correctly, including answering questions about nested invocation, escaping, handling closing tags within comments, etc.
+
+to enable future design moves in this space—for example, <style> blocks for scoped CSS or <query> blocks for languages like GraphQL, etc.
+
+to enable other parts of the JS ecosystem to adopt this—in the same way that JSX is not a React-only syntax but a spec which can also be used by e.g. Solid—since it could be valuable authoring format for Svelte, Vue, and other template-focused/HTML-first frameworks
+-->
 
 ---
 

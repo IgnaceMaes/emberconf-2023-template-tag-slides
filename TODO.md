@@ -11,3 +11,6 @@ TODO:
 - automatic imports in handlebars
 
 - addon author section/using addons
+- No more Jw::Button
+  -> Button or JwButton
+  - Autocomplete by class name
