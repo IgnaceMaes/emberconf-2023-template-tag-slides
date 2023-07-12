@@ -436,7 +436,7 @@ layout: four-sections
 Before
 
 ```hbs
-Hey <Icon @name={{"wave"}} />
+Hey <Icon @name={{"waving-hand"}} />
 ```
 <file-name>greeting.hbs</file-name>
 
@@ -450,7 +450,7 @@ After
 import Icon from 'example-app/components/icon';
 
 <template>
-  Hey <Icon @name={{"wave"}} />
+  Hey <Icon @name={{"waving-hand"}} />
 </template>
 ```
 <file-name>greeting.gjs</file-name>
@@ -465,7 +465,7 @@ Which is syntactic sugar for
 import Icon from 'example-app/components/icon';
 
 export default <template>
-  Hey <Icon @name={{"wave"}} />
+  Hey <Icon @name={{"waving-hand"}} />
 </template>;
 ```
 <file-name>greeting.gjs</file-name>
@@ -485,7 +485,7 @@ layout: four-sections
 Before
 
 ```hbs
-Hey <Icon @name={{"wave"}} />
+Hey <Icon @name={{"waving-hand"}} />
 ```
 <file-name>filename.hbs</file-name>
 <br />
@@ -507,7 +507,7 @@ After
 import Icon from 'example-app/components/icon';
 
 <template>
-  Hey <Icon @name={{"wave"}} />
+  Hey <Icon @name={{"waving-hand"}} />
 </template>
 ```
 <file-name>filename.gjs</file-name>
