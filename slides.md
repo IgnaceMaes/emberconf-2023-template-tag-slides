@@ -631,19 +631,21 @@ const square = (number) => {
 
 
 ```gjs
-const ListItem = <template>
+const CustomListItem = <template>
   <div class="p-4 rounded text-white bg-blue-700">
     {{yield}}
   </div>
 </template>;
 
-<template>
+const CustomList = <template>
   {{#each @items as |item|}}
-    <ListItem>
+    <CustomListItem>
       {{item.value}}
-    </ListItem>
+    </CustomListItem>
   {{/each}}
-</template>
+</template>;
+
+export default CustomList;
 ```
 
 
