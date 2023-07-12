@@ -33,7 +33,7 @@ Presenter notes
 
 ---
 layout: speaker
-image: 'images/me.jpeg'
+image: '/images/me.jpeg'
 ---
 
 # I'm Ignace Maes <twemoji-waving-hand /> 
@@ -45,12 +45,14 @@ From Ghent, Belgium <!-- <twemoji-flag-belgium />  -->
 <logos-twitter /> [@Ignace_Maes](https://twitter.com/Ignace_Maes)<br/>
 <mdi-web /> [www.ignacemaes.com](https://ignacemaes.com/)<br/>
 
-<!-- <img src="/images/otainsight.svg" class="absolute bottom-16 left-16 w-40 rounded shadow" /> -->
+<!--
+img src="/images/otainsight.svg" class="absolute bottom-16 left-16 w-40 rounded shadow"
+-->
 
 ---
 layout: image
 
-image: 'images/morpheus.jpeg'
+image: '/images/morpheus.jpeg'
 ---
 
 <div class="my-auto text-center w-200 mx-auto">
@@ -98,7 +100,7 @@ layout: four-sections
 
 ::topright::
 
-![octane](images/octane.png)
+![octane](/images/octane.png)
 
 <!-- 
 - Can we get a Polaris Tomster?
@@ -109,7 +111,7 @@ layout: four-sections
 ### Ember's next Edition
 # Ember 5.0 release post
 
-<img src="images/recommended-highlight.png" />
+<img src="/images/recommended-highlight.png" />
 
 <!-- 
 You don't need to wait until an edition is complete to start using it.
@@ -971,7 +973,7 @@ layout: four-sections
 
 Interactive tutorial [https://tutorial.glimdown.com](https://tutorial.glimdown.com) by NullVoxPopuli
 
-![Glimdown](images/glimdown.png)
+![Glimdown](/images/glimdown.png)
 
 
 ---
