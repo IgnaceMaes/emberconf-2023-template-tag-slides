@@ -737,6 +737,8 @@ layout: statement
   - TailwindCSS
   - CSS modules
 
+<br />
+
 ```gjs
 <template>
   <style>
@@ -746,11 +748,13 @@ layout: statement
 </template>
 ```
 
+<!--
 `glimmer-scoped-css`
 
 `embroider-css-modules`
 
 `ember-scoped-css`
+-->
 
 ---
 layout: section
