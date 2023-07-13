@@ -739,7 +739,7 @@ layout: statement
   - Separate files for (S)CSS
   - Utility class frameworks (e.g. TailwindCSS)
   - CSS modules
-- Interesting developments in addon world
+- Interesting addon developments
   - `glimmer-scoped-css`, `embroider-css-modules`, `ember-scoped-css`
 
 <br />
@@ -754,11 +754,7 @@ layout: statement
 ```
 
 <!--
-`glimmer-scoped-css`
-
-`embroider-css-modules`
-
-`ember-scoped-css`
+x
 -->
 
 ---
