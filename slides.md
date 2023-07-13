@@ -732,7 +732,7 @@ layout: statement
 ---
 
 ### Semantics of template tag components
-# Styling in template tag components
+# Styling
 
 - Template tag format is not opinionated about styling
 - Everything "Just Works"
