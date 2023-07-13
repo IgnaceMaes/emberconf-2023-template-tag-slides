@@ -790,6 +790,7 @@ Allows defining `.gjs` and `.gts` component files
 Implemented as addon
 - provides current built tooling
 - Stable!
+- Incrementally adoptable !!
 
 Will be built in in the future
 - https://github.com/emberjs/babel-plugin-ember-template-compilation
