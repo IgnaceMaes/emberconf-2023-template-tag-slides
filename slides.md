@@ -737,7 +737,7 @@ layout: statement
 - Template tag format is not opinionated about styling
 - Everything "Just Works"
   - Separate files for (S)CSS
-  - TailwindCSS
+  - Utility class frameworks (e.g. TailwindCSS)
   - CSS modules
 
 <br />
