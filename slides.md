@@ -640,9 +640,10 @@ const MyListItem = <template>
 </template>;
 
 const MyList = <template>
+  <div class="p-4 text-bold">List of things</div>
   {{#each @items as |item|}}
     <MyListItem>
-      {{item.value}}
+      {{item.number}} - {{item.value}}
     </MyListItem>
   {{/each}}
 </template>;
