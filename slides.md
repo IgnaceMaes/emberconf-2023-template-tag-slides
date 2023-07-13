@@ -864,7 +864,7 @@ module.exports = {
 
 VS Code
 
-```json
+```json{0|1-10}
 {
   "[glimmer-js]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -873,7 +873,7 @@ VS Code
   "[glimmer-ts]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": false
-  },
+  }, // and other configs ...
 }
 ```
 <file-name>settings.json</file-name>
