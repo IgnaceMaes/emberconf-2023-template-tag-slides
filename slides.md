@@ -874,9 +874,9 @@ VS Code
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": false
   },
-  // ...
 }
 ```
+<file-name>settings.json</file-name>
 
 
 ---
