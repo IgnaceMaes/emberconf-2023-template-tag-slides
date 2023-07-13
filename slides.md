@@ -828,6 +828,8 @@ to enable other parts of the JS ecosystem to adopt this—in the same way that J
 
 
 ---
+layout: four-sections
+---
 
 ### Using template tag components today
 
@@ -842,6 +844,8 @@ Install
 $ pnpm add --save-dev prettier-plugin-ember-template-tag
 ```
 
+::topleft::
+
 Configure
 
 ```js
@@ -855,6 +859,24 @@ module.exports = {
 };
 ```
 <file-name>.prettierrc.js</file-name>
+
+::topright::
+
+VS Code
+
+```json
+{
+  "[glimmer-js]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[glimmer-ts]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  // ...
+}
+```
 
 
 ---
