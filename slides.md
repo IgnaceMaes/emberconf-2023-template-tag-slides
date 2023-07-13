@@ -823,8 +823,8 @@ to enable other parts of the JS ecosystem to adopt this—in the same way that J
 ### Using template tag components today
 # Linting with ESLint
 
-- `ember-template-lint` v5.8.0 or higher
 - `eslint-plugin-ember` v11.6.0
+- `ember-template-lint` v5.8.0 or higher
 
 
 ---
