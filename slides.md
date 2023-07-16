@@ -966,12 +966,16 @@ import "@glint/environment-ember-template-imports";
 <file-name>global.d.ts</file-name>
 
 ---
+layout: four-sections
+---
 
 ### Using template tag components today
 
 # Code editor setup
 
-VS Code
+::topleft::
+
+**Visual Studio Code**
 
 - [vscode-glimmer](https://marketplace.visualstudio.com/items?itemName=chiragpat.vscode-glimmer)
   - `chiragpat.vscode-glimmer`
@@ -988,6 +992,14 @@ VS Code
 > Checkout the [ember-template-imports](https://github.com/ember-template-imports/ember-template-imports) GitHub repository
 
 </v-click>
+
+::topright::
+
+![blog](/images/vscode-glimmer.png)
+
+<span class="bottom-12 left-16 text-white/60 text-xs text-center block">
+  See <a href="https://marketplace.visualstudio.com/items?itemName=chiragpat.vscode-glimmer">vscode-glimmer</a> on the VS Code Marketplace
+</span>
 
 ---
 layout: four-sections
