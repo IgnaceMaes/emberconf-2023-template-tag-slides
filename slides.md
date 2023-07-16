@@ -982,7 +982,7 @@ layout: four-sections
 ![blog](/images/vscode-glimmer.png)
 
 <span class="bottom-12 left-16 text-white/60 text-xs text-center block">
-  See <a href="https://marketplace.visualstudio.com/items?itemName=chiragpat.vscode-glimmer">vscode-glimmer</a> on the VS Code Marketplace
+  The <a href="https://marketplace.visualstudio.com/items?itemName=chiragpat.vscode-glimmer">vscode-glimmer</a> extension on the VS Code Marketplace
 </span>
 
 <!--

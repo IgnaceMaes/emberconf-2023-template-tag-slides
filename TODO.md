@@ -17,3 +17,8 @@ TODO:
   - Autocomplete by class name
 
 - Glint - no registry
+  - TS example?
+
+Locally defined component:
+- not good example
+
