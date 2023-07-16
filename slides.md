@@ -772,7 +772,10 @@ layout: section
 # Using template tag components today
 
 ---
+layout: four-sections
 ---
+
+::topleft::
 
 ### Using template tag components today
 # Starting with template tags
@@ -793,6 +796,17 @@ Allows defining `.gjs` and `.gts` component files
 > - Ember CLI v2.13 or above
 > - ember-cli-htmlbars 6.0 or above
 > - Node.js v12 or above
+
+::topright::
+
+![](/images/template-imports-browser.png)
+
+
+<span class="bottom-12 left-16 text-white/60 text-xs text-center block">
+  See <a href="https://github.com/ember-template-imports/ember-template-imports">ember-template-imports</a> on GitHub
+</span>
+
+
 
 <!-- 
 Implemented as addon
