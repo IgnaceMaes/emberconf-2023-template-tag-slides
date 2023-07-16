@@ -1062,7 +1062,7 @@ layout: four-sections
 - `setRouteComponent` RFC
   - Unmerged!
   - Polyfill available
-- New router will unlock this
+- The Polaris router will unlock this
 
 ::topright::
 
