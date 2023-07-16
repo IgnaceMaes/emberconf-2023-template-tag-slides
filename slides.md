@@ -833,8 +833,10 @@ Will be built in in the future
   - Written in Rust on top of Speedy Web Compiler (SWC)
 
 <br />
+<br />
+<br />
 
-No syntactical impact for end consumer using template tag components!
+<twemoji-party-popper /> No syntactical impact for end consumer using template tag components today!
 
 <!-- 
 to make it easy for tooling authors to know when they have implemented the support correctly, including answering questions about nested invocation, escaping, handling closing tags within comments, etc.
