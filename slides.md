@@ -770,7 +770,8 @@ layout: four-sections
 ### Using template tag components today
 # Starting with template tags
 
-<br />
+<twemoji-package /> **ember-template-imports**
+<p class="text-sm text-white/50" style="margin-top: .5em;">Provides the build tooling required to support Ember's next-gen component authoring format</p>
 
 ```bash
 $ pnpm add --save-dev ember-template-imports
