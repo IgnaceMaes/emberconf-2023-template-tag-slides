@@ -772,7 +772,7 @@ layout: four-sections
 ::topleft::
 
 ### Using template tag components today
-# Starting with template tags
+# Using template tags
 
 <twemoji-package /> **ember-template-imports**
 <p class="text-sm text-white/50" style="margin-top: .5em;">Provides the build tooling required to support Ember's next-gen component authoring format</p>
