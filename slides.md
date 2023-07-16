@@ -963,10 +963,10 @@ layout: four-sections
 
 - [vscode-glimmer](https://marketplace.visualstudio.com/items?itemName=chiragpat.vscode-glimmer)
   - `chiragpat.vscode-glimmer`
-- Registers `Glimmer-JS` and `Glimmer-TS` languages to VS Code
-- Adds syntax highlighting
+- [Glimmer Templates Syntax for VS Code](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-glimmer-syntax)
+  - `lifeart.vscode-glimmer-syntax`
+- Registers `glimmer-js` and `glimmer-ts` languages to VS Code
 
-<br />
 <br />
 
 <v-click>
@@ -984,6 +984,11 @@ layout: four-sections
 <span class="bottom-12 left-16 text-white/60 text-xs text-center block">
   See <a href="https://marketplace.visualstudio.com/items?itemName=chiragpat.vscode-glimmer">vscode-glimmer</a> on the VS Code Marketplace
 </span>
+
+<!--
+- Adds syntax highlighting
+- Auto closing tags
+-->
 
 ---
 layout: four-sections
