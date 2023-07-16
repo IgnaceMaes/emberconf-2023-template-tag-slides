@@ -977,7 +977,7 @@ layout: four-sections
   - `chiragpat.vscode-glimmer`
 - [Glimmer Templates Syntax for VS Code](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-glimmer-syntax)
   - `lifeart.vscode-glimmer-syntax`
-- Registers `glimmer-js` and `glimmer-ts` languages to VS Code
+- Registers `glimmer-js` and `glimmer-ts` language and grammars
 
 <br />
 
