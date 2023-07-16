@@ -851,9 +851,25 @@ to enable other parts of the JS ecosystem to adopt this—in the same way that J
 ### Using template tag components today
 # Linting
 
-- `eslint-plugin-ember` v11.6.0+
-- `ember-template-lint` v5.8.0+
+eslint-plugin-ember<br />
+<span class="text-sm text-white/50">An ESLint plugin that provides a set of rules for Ember applications based on commonly known good practices.</span>
 
+```sh
+$ pnpm add --save-dev eslint-plugin-ember@^11.6.0
+```
+
+<br />
+
+ember-template-lint<br />
+<span class="text-sm text-white/50">ember-template-lint is a library that will lint your handlebars template and return error results.</span>
+
+```sh
+$ pnpm add --save-dev ember-template-lint@^5.8.0
+```
+
+<!-- 
+Should come in blueprint
+-->
 
 ---
 layout: four-sections
