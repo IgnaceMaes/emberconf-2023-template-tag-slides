@@ -412,7 +412,7 @@ layout: four-sections
 
 ![blog](/images/blog.png)
 
-<span class="bottom-12 left-16 text-white/60 text-xs text-center block">
+<span class="bottom-12 left-16 opacity-60 text-xs text-center block">
   See <a href="https://v5.chriskrycho.com/journal/ember-template-imports/">Ember Template Imports blog series</a> by Chris Krycho
 </span>
 
@@ -775,7 +775,7 @@ layout: four-sections
 # Writing template tags
 
 <twemoji-package /> **ember-template-imports**
-<p class="text-sm text-white/50" style="margin-top: .5em;">Provides the build tooling required to support Ember's next-gen component authoring format</p>
+<p class="text-sm opacity-50" style="margin-top: .5em;">Provides the build tooling required to support Ember's next-gen component authoring format</p>
 
 ```bash
 $ pnpm add --save-dev ember-template-imports
@@ -797,7 +797,7 @@ Allows defining `.gjs` and `.gts` component files
 ![](/images/template-imports-browser.png)
 
 
-<span class="bottom-12 left-16 text-white/60 text-xs text-center block">
+<span class="bottom-12 left-16 opacity-60 text-xs text-center block">
   See <a href="https://github.com/ember-template-imports/ember-template-imports">ember-template-imports</a> on GitHub
 </span>
 
@@ -849,7 +849,7 @@ to enable other parts of the JS ecosystem to adopt this—in the same way that J
 # Linting
 
 <twemoji-package /> **eslint-plugin-ember**
-<p class="text-sm text-white/50" style="margin-top: .5em;">An ESLint plugin that provides a set of rules for Ember applications based on commonly known good practices.</p>
+<p class="text-sm opacity-50" style="margin-top: .5em;">An ESLint plugin that provides a set of rules for Ember applications based on commonly known good practices.</p>
 
 ```sh
 $ pnpm add --save-dev eslint-plugin-ember@^11.6.0
@@ -858,7 +858,7 @@ $ pnpm add --save-dev eslint-plugin-ember@^11.6.0
 <br />
 
 <twemoji-package /> **ember-template-lint**
-<p class="text-sm text-white/50" style="margin-top: .5em;">ember-template-lint is a library that will lint your handlebars template and return error results.</p>
+<p class="text-sm opacity-50" style="margin-top: .5em;">ember-template-lint is a library that will lint your handlebars template and return error results.</p>
 
 ```sh
 $ pnpm add --save-dev ember-template-lint@^5.8.0
@@ -877,7 +877,7 @@ layout: four-sections
 # Code formatting with Prettier
 
 <twemoji-package /> **prettier-plugin-ember-template-tag**
-<p class="text-sm text-white/50" style="margin-top: .5em;">A Prettier plugin for formatting Ember template tags in both .gjs and .gts files</p>
+<p class="text-sm opacity-50" style="margin-top: .5em;">A Prettier plugin for formatting Ember template tags in both .gjs and .gts files</p>
 
 Install
 
@@ -929,7 +929,7 @@ layout: four-sections
 # Type checking in templates using Glint
 
 <twemoji-package /> **@glint/environment-ember-template-imports**
-<p class="text-sm text-white/50" style="margin-top: .5em;">This package contains the information necessary for glint to typecheck an ember-template-imports project</p>
+<p class="text-sm opacity-50" style="margin-top: .5em;">This package contains the information necessary for glint to typecheck an ember-template-imports project</p>
 
 Install
 
@@ -999,7 +999,7 @@ layout: four-sections
 
 ![blog](/images/vscode-glimmer.png)
 
-<span class="bottom-12 left-16 text-white/60 text-xs text-center block">
+<span class="bottom-12 left-16 opacity-60 text-xs text-center block">
   The <a href="https://marketplace.visualstudio.com/items?itemName=chiragpat.vscode-glimmer">vscode-glimmer</a> extension on the VS Code Marketplace
 </span>
 
@@ -1086,7 +1086,7 @@ layout: four-sections
 
 ![router](/images/router.png)
 
-<span class="bottom-12 left-16 text-white/60 text-xs text-center block">
+<span class="bottom-12 left-16 opacity-60 text-xs text-center block">
   The Polaris Router <a href="https://github.com/orgs/emberjs/projects/9/views/1?pane=issue&itemId=4812351">roadmap epic</a> on GitHub
 </span>
 
@@ -1115,7 +1115,7 @@ layout: four-sections
 
 ![router](/images/polaris-roadmap.png)
 
-<span class="bottom-12 left-16 text-white/60 text-xs text-center block">
+<span class="bottom-12 left-16 opacity-60 text-xs text-center block">
   The Polaris roadmap on GitHub
 </span>
 
