@@ -384,9 +384,14 @@ Template literals - tagged templates
  -->
 
 ---
+layout: four-sections
+---
+
+::topleft::
 
 ### Why a new component format?
 # The path forward
+
 
 - All solutions solve the **template import problem**
 - Different trade-offs to be made in
@@ -397,8 +402,11 @@ Template literals - tagged templates
 - `<template>` tag components came out as best overall
 - Since [RFC #779](https://rfcs.emberjs.com/id/0779-first-class-component-templates/) the accepted next-gen format
 
+::topright::
 
-<span class="block absolute bottom-12 left-16 text-white/60 text-sm">
+![blog](/images/blog.png)
+
+<span class="bottom-12 left-16 text-white/60 text-xs text-center block">
   See <a href="https://v5.chriskrycho.com/journal/ember-template-imports/">Ember Template Imports blog series</a> by Chris Krycho
 </span>
 
