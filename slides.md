@@ -302,7 +302,7 @@ export default class CopyToClipboard extends Component {
 </v-click>
 
 <style>
-  p {
+  .slidev-layout p {
     margin-top: 0;
   }
 </style>
