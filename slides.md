@@ -541,7 +541,7 @@ export default class CopyToClipboard extends Component {
 </v-click>
 
 <style>
-h1 { margin-bottom: 0; }
+.slidev-layout h1 { margin-bottom: 0; }
 </style>
 
 ---
