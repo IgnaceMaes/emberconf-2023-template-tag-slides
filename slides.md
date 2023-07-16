@@ -540,6 +540,10 @@ export default class CopyToClipboard extends Component {
 
 </v-click>
 
+<style>
+h1 { margin-bottom: 0; }
+</style>
+
 ---
 layout: statement
 ---
