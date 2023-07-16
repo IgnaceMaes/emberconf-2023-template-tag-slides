@@ -1049,13 +1049,23 @@ layout: section
 # Looking ahead
 
 ---
+layout: four-sections
+---
+
+
+::topleft::
 
 ### Looking ahead
 # Usage in routes
 
 - Currently not possible to use `.gjs`/`.gts` for route templates
 - `setRouteComponent` RFC
+  - Unmerged!
 - New router will unlock this
+
+::topright::
+
+![router](/images/router.png)
 
 ---
 
