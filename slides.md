@@ -1061,6 +1061,7 @@ layout: four-sections
 - Currently not possible to use `.gjs`/`.gts` for route templates
 - `setRouteComponent` RFC
   - Unmerged!
+  - Polyfill available
 - New router will unlock this
 
 ::topright::
