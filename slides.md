@@ -922,8 +922,12 @@ layout: four-sections
 
 # Type checking in templates using Glint
 
-- Glint provides end-to-end typechecking in templates
-- Both environment configs `ember-loose` and `ember-template-imports` are required
+<!-- - Glint provides end-to-end typechecking in templates
+- Both environment configs `ember-loose` and `ember-template-imports` are required -->
+
+
+<twemoji-package /> **@glint/environment-ember-template-imports**
+<p class="text-sm text-white/50" style="margin-top: .5em;">This package contains the information necessary for glint to typecheck an ember-template-imports project</p>
 
 Install
 
