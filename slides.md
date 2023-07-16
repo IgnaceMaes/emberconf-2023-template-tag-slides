@@ -879,8 +879,8 @@ layout: four-sections
 
 # Code formatting with Prettier
 
-> **prettier-plugin-ember-template-tag** <br/>
-> A Prettier plugin for formatting Ember template tags in both .gjs and .gts files
+<twemoji-package /> **prettier-plugin-ember-template-tag**
+<p class="text-sm text-white/50" style="margin-top: .5em;">A Prettier plugin for formatting Ember template tags in both .gjs and .gts files</p>
 
 Install
 
