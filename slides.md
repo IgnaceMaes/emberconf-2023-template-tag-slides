@@ -1108,9 +1108,13 @@ layout: section
 # Wrapping it up
 
 ---
+layout: four-sections
+---
 
 ### Wrapping it up
 # Current state of template tag components
+
+::topleft::
 
 - Officially the **next-gen component format** for Ember.js
 - Already usable **today**
@@ -1119,6 +1123,10 @@ layout: section
 - Offers a **streamlined testing experience**
 - Better tooling compatibility increases **developer experience**
 - Unlocks **performance optimizations** for bundlers
+
+::topright::
+
+<img src="/images/glimmer.svg" class="absolute right-0" />
 
 
 ---
