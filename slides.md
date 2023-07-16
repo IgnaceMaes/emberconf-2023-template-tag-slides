@@ -1067,6 +1067,10 @@ layout: four-sections
 
 ![router](/images/router.png)
 
+<span class="bottom-12 left-16 text-white/60 text-xs text-center block">
+  The Polaris Router <a href="https://github.com/orgs/emberjs/projects/9/views/1?pane=issue&itemId=4812351">roadmap epic</a> on GitHub
+</span>
+
 ---
 
 ### Looking ahead
