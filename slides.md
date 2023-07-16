@@ -1081,6 +1081,10 @@ layout: four-sections
 
 
 ---
+layout: four-sections
+---
+
+::topleft::
 
 ### Looking ahead
 # Wishlist
@@ -1088,6 +1092,14 @@ layout: four-sections
 - Automatic imports in template
 - Ember CLI blueprints
 - Documentation
+
+::topright::
+
+![router](/images/polaris-roadmap.png)
+
+<span class="bottom-12 left-16 text-white/60 text-xs text-center block">
+  The Polaris roadmap on GitHub
+</span>
 
 ---
 layout: section
