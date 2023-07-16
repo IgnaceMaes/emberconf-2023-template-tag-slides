@@ -15,3 +15,5 @@ TODO:
   - folder namespace syntax
   -> Button or JwButton
   - Autocomplete by class name
+
+- Glint - no registry
