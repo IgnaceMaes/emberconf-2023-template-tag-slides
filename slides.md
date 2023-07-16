@@ -301,6 +301,12 @@ export default class CopyToClipboard extends Component {
 
 </v-click>
 
+<style>
+  p {
+    margin-top: 0;
+  }
+</style>
+
 <!-- 
 Frontmatter
 - smallest delta
