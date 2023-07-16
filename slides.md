@@ -831,7 +831,9 @@ Will be built in in the future
 <br />
 <br />
 
-<twemoji-party-popper /> No syntactical impact for end consumer using template tag components today!
+<v-click>
+  <twemoji-party-popper /><span class="ml-2">No code impact for end consumer using template tag components!</span>
+</v-click>
 
 <!-- 
 to make it easy for tooling authors to know when they have implemented the support correctly, including answering questions about nested invocation, escaping, handling closing tags within comments, etc.
