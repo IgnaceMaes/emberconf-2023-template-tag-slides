@@ -555,6 +555,12 @@ layout: four-sections
 # Direct access to imported values
 
 
+```js
+const FEATURE_WORLD = 'some-feature-flag-key';
+```
+<file-name>utils/feature-flags.js</file-name>
+<br />
+
 ::topleft::
 
 Before
