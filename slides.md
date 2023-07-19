@@ -752,7 +752,7 @@ layout: statement
   - Utility class frameworks (e.g. TailwindCSS)
   - CSS modules
 - Interesting addon developments
-  - `glimmer-scoped-css`, `embroider-css-modules`, `ember-scoped-css`
+  - `glimmer-scoped-css`, `embroider-css-modules`, `ember-scoped-css`, ...
 
 <br />
 
