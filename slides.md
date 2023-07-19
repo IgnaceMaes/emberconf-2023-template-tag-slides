@@ -616,7 +616,7 @@ const square = (number) => {
 };
 
 <template>
-  The square of {{value}} is {{(square value)}}
+  The square of {{value}} is {{square value}}
 </template>
 ```
 
