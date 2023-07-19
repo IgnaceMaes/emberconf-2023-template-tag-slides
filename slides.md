@@ -620,6 +620,9 @@ const square = (number) => {
 </template>
 ```
 
+<br />
+<br />
+
 > The square of 2 equals 4
 
 <!-- 
