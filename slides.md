@@ -103,7 +103,8 @@ layout: four-sections
 ![octane](/images/octane.png)
 
 <!-- 
-- Can we get a Polaris Tomster?
+- Octane had this really nice mascotte of Tomster and Zoey
+- Can we get one for Polaris?
 -->
 
 ---
