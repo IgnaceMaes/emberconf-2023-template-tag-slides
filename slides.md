@@ -396,7 +396,7 @@ layout: four-sections
 # The path forward
 
 
-- All solutions solve the **template import problem**
+- All four solutions solve the **template import problem**
 - Different trade-offs to be made in
   - Semantics
   - Learning
