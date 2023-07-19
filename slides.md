@@ -1072,7 +1072,7 @@ Fun fact: ...
 ### Using template tag components today
 # Coding in your browser
 
-Interactive tutorial [https://tutorial.glimdown.com](https://tutorial.glimdown.com) by NullVoxPopuli
+Interactive tutorial by NullVoxPopuli: [https://tutorial.glimdown.com](https://tutorial.glimdown.com)
 
 ![Glimdown](/images/glimdown2.png)
 
