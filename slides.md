@@ -131,6 +131,11 @@ layout: statement
 
 </v-click>
 
+<!-- 
+- Need more context to answer
+- Let's start with why there even is a new format
+-->
+
 ---
 layout: section
 ---
