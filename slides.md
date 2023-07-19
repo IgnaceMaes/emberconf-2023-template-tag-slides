@@ -996,10 +996,10 @@ layout: four-sections
 
 ::topright::
 
-![blog](/images/vscode-glimmer.png)
+![blog](/images/vscode-glimmer-lifeart.png)
 
 <span class="bottom-12 left-16 opacity-60 text-xs text-center block">
-  The <a href="https://marketplace.visualstudio.com/items?itemName=chiragpat.vscode-glimmer">vscode-glimmer</a> extension on the VS Code Marketplace
+  The <a href="https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-glimmer-syntax">lifeart.vscode-glimmer-syntax</a> extension on the VS Code Marketplace
 </span>
 
 <!--
