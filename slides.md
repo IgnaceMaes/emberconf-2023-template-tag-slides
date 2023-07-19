@@ -775,6 +775,11 @@ layout: section
 
 # Using template tag components today
 
+<!--
+Warning: A lot of config
+In Polaris the experience will come just out of the box
+-->
+
 ---
 layout: four-sections
 ---
