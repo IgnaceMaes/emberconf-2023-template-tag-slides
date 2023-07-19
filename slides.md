@@ -386,10 +386,8 @@ export default class CopyToClipboard extends Component {
 </v-click>
 
 <!-- 
-Template literals - tagged templates
-- "The tag function can then perform whatever operations on these arguments you wish, and return the manipulated string"
-- fairly unknown JS feature
-- create custom identifier in front of template literal to run through a function
+Template literals (tagged templates)
+- only refers to the template, if you use it standalone you don't have a component
  -->
 
 ---
