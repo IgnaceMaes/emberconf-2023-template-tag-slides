@@ -1088,7 +1088,11 @@ layout: four-sections
   - stand-alone
   - Or on Sli.dev or Vitepress for docs
 
-Fun fact: ...
+Fun story:
+- Preparing EmberConf talk
+- Wanted to use Slidev to write presentation in markdown
+- Code embed for gjs/gts not supported
+- Uses Shiki under the hood
 -->
 
 ---
