@@ -1107,7 +1107,7 @@ layout: four-sections
 ### Looking ahead
 # Wishlist
 
-- Automatic imports in template
+- Automatic imports in editor for templates
 - Ember CLI blueprints
 - Documentation
 
