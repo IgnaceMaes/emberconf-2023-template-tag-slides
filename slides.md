@@ -841,7 +841,7 @@ Will be built in in the future
 # Underlying implementation *will* change
 
 - `ember-template-imports` is an exploration addon to use template tags today
-- Content-tag spec for generic embedding in JS/TS
+- Content-tag spec for generic language embedding in JS/TS
   - Enables future design extensions, e.g. `<gql>` for GraphQL
   - Framework agnostic: other tools could reuse this format
 - New `content-tag` package
@@ -857,11 +857,10 @@ Will be built in in the future
 </v-click>
 
 <!-- 
-to make it easy for tooling authors to know when they have implemented the support correctly, including answering questions about nested invocation, escaping, handling closing tags within comments, etc.
+Content-tag
+- There's already <template>, but extending that to others
 
-to enable future design moves in this space—for example, <style> blocks for scoped CSS or <query> blocks for languages like GraphQL, etc.
-
-to enable other parts of the JS ecosystem to adopt this—in the same way that JSX is not a React-only syntax but a spec which can also be used by e.g. Solid—since it could be valuable authoring format for Svelte, Vue, and other template-focused/HTML-first frameworks
+Big takeaway here: Template tag syntax *is* fixed, so no need to rewrite later
 -->
 
 ---
@@ -1102,7 +1101,7 @@ Fun story:
 ---
 
 ### Using template tag components today
-# Coding in your browser
+# Trying template tags in your browser
 
 Interactive tutorial by NullVoxPopuli: [https://tutorial.glimdown.com](https://tutorial.glimdown.com)
 
