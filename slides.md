@@ -552,7 +552,7 @@ layout: four-sections
 ---
 
 ### Semantics of template tag components
-# Scope access to any imported value
+# Direct access to imported values
 
 
 ::topleft::
