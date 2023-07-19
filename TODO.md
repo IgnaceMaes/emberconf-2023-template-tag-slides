@@ -22,3 +22,7 @@ TODO:
 Locally defined component:
 - not good example
 
+DAY -1
+
+- Strict mode stuff
+- Multiple components in 1
