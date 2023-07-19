@@ -1006,8 +1006,9 @@ Registers `glimmer-js` and `glimmer-ts` language and grammars
 <!--
 - vscode-glimmer: basic support
 - Glimmer Templates Syntax
-- Adds syntax highlighting
-- Auto closing tags
+  - Richer syntax highlighting in templates
+  - Adds syntax highlighting
+  - Auto closing tags
 -->
 
 ---
