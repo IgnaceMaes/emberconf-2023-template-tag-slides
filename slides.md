@@ -565,7 +565,7 @@ const FEATURE_WORLD = 'some-feature-flag-key';
 
 Before
 
-```hbs{1-10|0}
+```hbs{0|1-10|0}
 Hello
 {{#if (hasFeature this.FEATURE_WORLD)}}
   World
