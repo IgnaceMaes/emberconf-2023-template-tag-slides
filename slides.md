@@ -600,7 +600,7 @@ import { FEATURE_WORLD } from 'app/utils/feature-flags';
 
 <!-- 
 - No need for backing class just to pass imports
-- Refactoring now "just works"!
+- Refactor renaming now "just works"!
 -->
 
 ---
