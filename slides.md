@@ -606,7 +606,7 @@ import { FEATURE_WORLD } from 'app/utils/feature-flags';
 ---
 
 ### Semantics of template tag components
-# Scope access to local values
+# Local helpers, constants, and modifiers
 
 ```gjs
 const value = 2;
@@ -616,9 +616,11 @@ const square = (number) => {
 };
 
 <template>
-  The square of {{value}} is {{square value}}
+  The square of {{value}} equals {{square value}}
 </template>
 ```
+
+> The square of 2 equals 4
 
 <!-- 
 - Big win for defining local values that are inherent to the component
