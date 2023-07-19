@@ -143,7 +143,7 @@ What got it to the point of needing a new component format.
 ---
 
 ### Why a new component format?
-# Strict mode templates
+# Component imports
 
 - **Goal:** make components statically resolvable
 - **Benefits**
@@ -165,10 +165,7 @@ Strict mode:
 
 Before explaining &lt;template&gt; tag components we should take a step back and see where it's coming from.
 
-- JavaScript has always been the wild west
-- Time to grow up
-
-TODO: Why? Benefits?
+Also referred to as strict mode.
  -->
 
 
@@ -1049,6 +1046,26 @@ layout: four-sections
 <!-- 
 - 2000 `.gjs`/`.gts` component files required for GitHub to support
  -->
+
+---
+
+
+### Using template tag components today
+# Syntax highlighting on the web
+
+- Highlight.js
+- Shiki
+
+![Glimdown](/images/shiki.png)
+
+<!-- 
+- Highlight.js Glimmer plugin
+- Shiki has built-in support now
+  - stand-alone
+  - Or on Sli.dev or Vitepress for docs
+
+Fun fact: ...
+-->
 
 ---
 
