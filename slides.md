@@ -805,6 +805,8 @@ Implemented as addon
 - provides current built tooling
 - Stable!
 - Incrementally adoptable !!
+  - Import old component format in new format
+  - Import new component in old component
 
 Will be built in in the future
 - https://github.com/emberjs/babel-plugin-ember-template-compilation
