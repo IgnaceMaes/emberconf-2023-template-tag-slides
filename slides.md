@@ -980,9 +980,10 @@ layout: four-sections
 
 - [vscode-glimmer](https://marketplace.visualstudio.com/items?itemName=chiragpat.vscode-glimmer)
   - `chiragpat.vscode-glimmer`
-- [Glimmer Templates Syntax for VS Code](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-glimmer-syntax)
+- Or [Glimmer Templates Syntax for VS Code](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-glimmer-syntax)
   - `lifeart.vscode-glimmer-syntax`
-- Registers `glimmer-js` and `glimmer-ts` language and grammars
+
+Registers `glimmer-js` and `glimmer-ts` language and grammars
 
 <br />
 
@@ -1003,6 +1004,8 @@ layout: four-sections
 </span>
 
 <!--
+- vscode-glimmer: basic support
+- Glimmer Templates Syntax
 - Adds syntax highlighting
 - Auto closing tags
 -->
