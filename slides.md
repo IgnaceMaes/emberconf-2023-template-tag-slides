@@ -746,7 +746,7 @@ layout: statement
 ### Semantics of template tag components
 # Styling
 
-- Template tag format is **not opinionated** about styling
+- Template tag format is not opinionated about styling
 - Everything "Just Works"
   - Separate files for (S)CSS
   - Utility class frameworks (e.g. TailwindCSS)
