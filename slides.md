@@ -619,6 +619,8 @@ const square = (number) => {
   The square of {{value}} equals {{square value}}
 </template>
 ```
+<file-name>square.gjs</file-name>
+
 
 <br />
 <br />
