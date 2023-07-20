@@ -1237,8 +1237,8 @@ layout: statement
 
 <!--
 - If you can live with tooling not being complete, rough edges -> yes
-- Otherwise okay to hold off a bit
-  - At least you know it's coming now
+- Otherwise okay to hold off until recommended
+  - At least you know it's coming now, and why
 - Personally: I'm super productive with template tags/TypeScript/Glint and it's my go-to choice when starting new apps
 -->
 
