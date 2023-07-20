@@ -178,7 +178,7 @@ layout: section
 
 <v-click>
 
-- **Goal:** work using references instead of global string-based resolving
+- **Goal:** work using references instead
 - **Extra benefits**
   - Unlocks code splitting
   - Flexible layout for file structure
@@ -196,6 +196,8 @@ layout: section
 <!--
 Final:
 - e.g. if you use helper, ember will look it up in the helpers dir
+- local scoped: best example is modifiers, replace render-modifiers
+- wider exosystem:: styled components
 
 make components statically resolvable
 
@@ -213,7 +215,7 @@ FROM RFC:
   - e.g. component from addon
   - also hard for new joiners to learn a file in a certain folder makes it available somewhere
   - Everything is global and public 
-  - External: e.g. styled-components
+  - External: e.g. styled-componentsponents
 -->
 
 ---
