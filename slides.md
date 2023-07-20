@@ -861,8 +861,7 @@ layout: section
 # Using template tag components today
 
 <!--
-Warning: A lot of config
-In Polaris the experience will come just out of the box
+what does it look like in code?
 -->
 
 ---
@@ -922,12 +921,17 @@ Will be built in in the future
 # Underlying implementation *will* change
 
 - `ember-template-imports` is an exploration addon to use template tags today
+
+<v-click>
+
 - Content-tag spec for generic language embedding in JS/TS
   - Enables future design extensions, e.g. `<gql>` for GraphQL
   - Framework agnostic: other tools could reuse this format
 - New `content-tag` package
   - Preprocessor for rewriting to valid JS
   - Written in Rust on top of Speedy Web Compiler (SWC)
+
+</v-click>
 
 <br />
 <br />
