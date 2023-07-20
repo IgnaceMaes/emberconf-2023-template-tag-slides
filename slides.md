@@ -353,14 +353,18 @@ export default class CopyToClipboard extends Component {
   }
 </style>
 
-<!-- 
-Frontmatter
+<!--
+1
+- first naive approach could be Frontmatter
 - smallest delta
 - only imports, no other js
 - hard for tooling to integrate split
 - how to test?
-- 
- -->
+
+2.
+-Like Vue/Svelte, is it in scope?
+-What does testing look like?
+-->
 
 ---
 layout: four-sections
@@ -428,10 +432,16 @@ export default class CopyToClipboard extends Component {
 
 </v-click>
 
-<!-- 
-Template literals (tagged templates)
-- only refers to the template, if you use it standalone you don't have a component
- -->
+<!--
+3
+- Template literals (tagged templates)
+- only refers to the template, if you use it standalone you don't have a component.
+-Valid JS, but semantics don't match
+
+4.
+- custom file format
+- use stand alone
+-->
 
 ---
 layout: four-sections
@@ -459,6 +469,12 @@ layout: four-sections
 <span class="bottom-12 left-16 opacity-60 text-xs text-center block">
   See <a href="https://v5.chriskrycho.com/journal/ember-template-imports/">Ember Template Imports blog series</a> by Chris Krycho
 </span>
+
+<!--
+Intentionally kept it short
+- a lot can be said about this -> and there has been
+-
+-->
 
 ---
 layout: section
