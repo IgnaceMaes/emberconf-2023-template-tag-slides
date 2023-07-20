@@ -1009,6 +1009,14 @@ import "@glint/environment-ember-template-imports";
 - Both environment configs `ember-loose` and `ember-template-imports` are required
  -->
 
+
+
+---
+layout: statement
+---
+
+# That was a lot!
+
 ---
 layout: four-sections
 ---
