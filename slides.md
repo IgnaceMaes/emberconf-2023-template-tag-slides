@@ -151,9 +151,9 @@ What got it to the point of needing a new component format.
 ### Why a new component format?
 # Component imports
 
-- **Goal:** make components statically resolvable
+- **Goal:** 
 - **Benefits**
-  - Better for bundling and build tools
+  - Unlocks code splitting
   - Simplifies Ember internals and offers better performance
   - Flexible layout for file structure
 
@@ -164,6 +164,8 @@ What got it to the point of needing a new component format.
 ::right::
 
 <!-- 
+make components statically resolvable
+
 Strict mode:
   - No implicit globals, this fallback, invocation of argument-less helpers
   - No dynamic resolution
