@@ -54,6 +54,7 @@ From Ghent, Belgium <!-- <twemoji-flag-belgium />  -->
 - OTA is a BI solution for hotels
 - 75 000 hotels worldwide, so chances are ...
 - more specifically in the technical frontent team
+- job is to improve developer experience for all devs
 - Glad to talk about template tag components as part of my job is to empower all frontend engineerst the company, and 'm excited about them
 -->
 
