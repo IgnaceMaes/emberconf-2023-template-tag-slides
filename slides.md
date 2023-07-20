@@ -661,6 +661,7 @@ const square = (number) => {
 <!-- 
 - Big win for defining local values that are inherent to the component
 - Especially good for local modifiers, to replace ember-render-modifiers
+- Can choose to export it or not
 -->
 
 ---
