@@ -1215,10 +1215,9 @@ layout: four-sections
 - Officially the **next-gen component format** for Ember.js
 - Already usable **today**
 - Can be adopted **incrementally**
+- Unlocks **code splitting**
 - Allows access to **local scope** in templates
 - Offers a **streamlined testing experience**
-- Better tooling compatibility increases **developer experience**
-- Unlocks **code splitting**
 
 ::topright::
 
