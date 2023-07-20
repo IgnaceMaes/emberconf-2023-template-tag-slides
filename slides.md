@@ -36,7 +36,7 @@ Intro
 
 ---
 layout: speaker
-image: /images/me.jpeg
+image: me.jpeg
 ---
 
 # I'm Ignace Maes <twemoji-waving-hand /> 
@@ -60,7 +60,7 @@ From Ghent, Belgium <!-- <twemoji-flag-belgium />  -->
 
 ---
 layout: image
-image: /images/morpheus.jpeg
+image: morpheus.jpeg
 ---
 
 <div class="my-auto text-center w-200 mx-auto">
