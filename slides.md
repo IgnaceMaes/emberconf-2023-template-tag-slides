@@ -1288,6 +1288,12 @@ layout: four-sections
   The Polaris roadmap on GitHub
 </span>
 
+<!--
+- imports: for built-in helpers, also components etc
+- blueprint: new file extension, template tag
+- docs: nowhere to put now, eventually it will go into main docs
+-->
+
 ---
 layout: section
 ---
@@ -1314,10 +1320,11 @@ layout: four-sections
 
 <img src="/images/glimmer.svg" class="absolute right-0" />
 
-<!-- 
-- Tooling compatibility: renaming
+<!--
+- incrementally: introduct in older app
+- code split: by ref opens door
+- local scope: modifiers, helpers, components
 -->
-
 
 ---
 layout: statement
@@ -1326,10 +1333,11 @@ layout: statement
 # Should you start using &lt;template&gt; tag components today?
 
 <!--
-- If you can live with tooling not being complete, rough edges -> yes
+- If you can live with caveats mentioned before and bumping into rough edges -> yes
 - Otherwise okay to hold off until recommended
   - At least you know it's coming now, and why
 - Personally: I'm super productive with template tags/TypeScript/Glint and it's my go-to choice when starting new apps
+- excited to see template tags getting on the road to officially recommended
 -->
 
 ---
