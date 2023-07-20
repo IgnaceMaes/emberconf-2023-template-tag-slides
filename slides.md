@@ -821,6 +821,11 @@ layout: statement
 
 # What about styling?
 
+<!--
+- at least one person who though
+- if we have template tag, is there also a style tag?
+-->
+
 ---
 
 ### Semantics of template tag components
