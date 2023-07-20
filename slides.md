@@ -1261,6 +1261,11 @@ layout: four-sections
 
 <Tweet id="1589671595039416320" conversation="1589671173834801152"/>
 
+<!--
+- Ember has historically been good with helping people together
+- ambitious goal
+- a lot of community intret
+-->
 
 ---
 layout: four-sections
