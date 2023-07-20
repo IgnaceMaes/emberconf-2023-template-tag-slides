@@ -1214,12 +1214,21 @@ Interactive tutorial by NullVoxPopuli: [https://tutorial.glimdown.com](https://t
 
 ![Glimdown](/images/glimdown2.png)
 
+<!--
+- see in real time what you built
+- ...
+-->
 
 ---
 layout: section
 ---
 
 # Looking ahead
+
+<!--
+- before this: all possible today
+- what's next?
+-->
 
 ---
 layout: four-sections
