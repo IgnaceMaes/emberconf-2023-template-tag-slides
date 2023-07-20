@@ -355,13 +355,15 @@ export default class CopyToClipboard extends Component {
 
 <!--
 1
+
 - first naive approach could be Frontmatter
 - smallest delta
 - only imports, no other js
 - hard for tooling to integrate split
 - how to test?
 
-2.
+2
+
 -Like Vue/Svelte, is it in scope?
 -What does testing look like?
 -->
