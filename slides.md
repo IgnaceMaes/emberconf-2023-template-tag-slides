@@ -972,8 +972,9 @@ $ pnpm add --save-dev eslint-plugin-ember@^11.6.0
 $ pnpm add --save-dev ember-template-lint@^5.8.0
 ```
 
-<!-- 
-Should come in blueprint
+<!--
+- Should come in blueprint
+- make sure to use min version
 -->
 
 ---
@@ -1027,6 +1028,11 @@ VS Code
 ```
 <file-name>settings.json</file-name>
 
+<!--
+Needs separate install
+
+prettier plugin in Ember -> also configure to run on language
+-->
 
 ---
 layout: four-sections
@@ -1083,6 +1089,11 @@ layout: statement
 
 # That was a lot!
 
+<!--
+- how you do it today
+- in Polaris - experience will come out of the box
+-->
+
 ---
 layout: four-sections
 ---
@@ -1124,8 +1135,8 @@ Registers `glimmer-js` and `glimmer-ts` language and grammars
 - vscode-glimmer: basic support
 - Glimmer Templates Syntax
   - Richer syntax highlighting in templates
-  - Adds syntax highlighting
   - Auto closing tags
+  - Same author as ember language server
 -->
 
 ---
@@ -1172,7 +1183,6 @@ layout: four-sections
 
 ---
 
-
 ### Using template tag components today
 # Syntax highlighting on the web
 
@@ -1181,7 +1191,8 @@ layout: four-sections
 
 ![Glimdown](/images/shiki.png)
 
-<!-- 
+<!--
+- blog or docs website
 - Highlight.js Glimmer plugin
 - Shiki has built-in support now
   - stand-alone
