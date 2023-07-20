@@ -165,11 +165,16 @@ layout: section
 # Template imports
 
 - Currently Ember uses global string-based resolving
+
+<v-click>
+
 - This has issues:
   - Naming conflicts
   - No good way to introduce locally-scoped code
   - Wider ecosystem tools don't work out of the box as JS context is assumed
   - Testing format differs from app code
+
+</v-click>
 
 <v-click>
 
@@ -188,7 +193,10 @@ layout: section
 
 </v-click>
 
-<!-- 
+<!--
+Final:
+- e.g. if you use helper, ember will look it up in the helpers dir
+
 make components statically resolvable
 
 Strict mode:
@@ -206,8 +214,7 @@ FROM RFC:
   - also hard for new joiners to learn a file in a certain folder makes it available somewhere
   - Everything is global and public 
   - External: e.g. styled-components
- -->
-
+-->
 
 ---
 layout: four-sections
