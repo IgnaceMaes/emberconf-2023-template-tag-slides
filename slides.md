@@ -161,7 +161,7 @@ What got it to the point of needing a new component format.
 <v-click>
 
 - **Goal:** work using references instead of global string-based resolving
-- **Benefits**
+- **Extra benefits**
   - Unlocks code splitting
   - Flexible layout for file structure
 
