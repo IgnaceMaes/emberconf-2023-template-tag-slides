@@ -1218,11 +1218,15 @@ layout: four-sections
 - Allows access to **local scope** in templates
 - Offers a **streamlined testing experience**
 - Better tooling compatibility increases **developer experience**
-- Unlocks **performance optimizations** for bundlers
+- Unlocks **code splitting**
 
 ::topright::
 
 <img src="/images/glimmer.svg" class="absolute right-0" />
+
+<!-- 
+- Tooling compatibility: renaming
+-->
 
 
 ---
