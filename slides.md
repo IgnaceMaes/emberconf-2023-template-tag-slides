@@ -154,9 +154,10 @@ layout: section
 
 # Why a new component format?
 
-<!-- 
-What got it to the point of needing a new component format.
- -->
+<!--
+- What got it to the point of needing a new component format.
+- Glimmer components have been working fine since octane
+-->
 
 ---
 
