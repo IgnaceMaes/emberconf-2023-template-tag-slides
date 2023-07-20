@@ -483,7 +483,8 @@ layout: section
 # Semantics of template tag components
 
 <!--
-Building a mental model
+- Difficult word for how you can use it
+- Building a mental model
 -->
 
 ---
@@ -499,6 +500,11 @@ Building a mental model
   - Helpers
   - Modifiers
 - Wrapping glimmer template with the `<template>` tag
+
+<!--
+- 3 differences to notice
+- lets look at some code examples
+-->
 
 ---
 layout: four-sections
@@ -604,11 +610,21 @@ export default class CopyToClipboard extends Component {
 .slidev-layout h1 { margin-bottom: 0; }
 </style>
 
+<!--
+- template embedded in component class
+- this links it to the component
+-->
+
 ---
 layout: statement
 ---
 
 # But wait, there's more!
+
+<!--
+-known cases now
+- but template tags unlock new possibilities
+-->
 
 ---
 layout: four-sections
