@@ -941,9 +941,12 @@ Will be built in in the future
   <twemoji-party-popper /><span class="ml-2">No code impact for end consumer using template tag components!</span>
 </v-click>
 
-<!-- 
+<!--
 Content-tag
-- There's already <template>, but extending that to others
+- There's already template tag, but extending that to others
+- bit like in markdown where you can embed other lang snippets
+
+SWC: nice to see Ember can leverage these newer technologies
 
 Big takeaway here: Template tag syntax *is* fixed, so no need to rewrite later
 -->
