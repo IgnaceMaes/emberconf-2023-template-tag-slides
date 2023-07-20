@@ -36,7 +36,7 @@ Intro
 
 ---
 layout: speaker
-image: '/images/me.jpeg'
+image: /images/me.jpeg
 ---
 
 # I'm Ignace Maes <twemoji-waving-hand /> 
@@ -48,11 +48,18 @@ From Ghent, Belgium <!-- <twemoji-flag-belgium />  -->
 <logos-twitter /> [@Ignace_Maes](https://twitter.com/Ignace_Maes)<br/>
 <mdi-web /> [www.ignacemaes.com](https://ignacemaes.com/)<br/>
 
+<!--
+- came all the way from Belgium
+- work at OTA as full-stack
+- OTA is a BI solution for hotels
+- 75 000 hotels worldwide, so chances are ...
+- more specifically in the technical frontent team
+- Glad to talk about template tag components as part of my job is to empower all frontend engineerst the company, and 'm excited about them
+-->
 
 ---
 layout: image
-
-image: '/images/morpheus.jpeg'
+image: /images/morpheus.jpeg
 ---
 
 <div class="my-auto text-center w-200 mx-auto">
@@ -76,6 +83,11 @@ image: '/images/morpheus.jpeg'
   text-shadow: 2px 2px #000000;
 }
 </style>
+
+<!--
+- for some people not a surprise
+- but have to acknowledge not everyone reads RFCs, is on Discord
+-->
 
 ---
 layout: section
