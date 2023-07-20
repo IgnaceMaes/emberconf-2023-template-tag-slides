@@ -149,7 +149,7 @@ What got it to the point of needing a new component format.
 ---
 
 ### Why a new component format?
-# Component imports
+# Template imports
 
 - Currently Ember uses global string-based resolving
 - This has issues:
