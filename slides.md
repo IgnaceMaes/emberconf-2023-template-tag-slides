@@ -151,17 +151,29 @@ What got it to the point of needing a new component format.
 ### Why a new component format?
 # Component imports
 
-- **Goal:** 
+- Currently Ember uses global string-based resolving
+- This has issues:
+  - Naming conflicts
+  - No good way to introduce locally-scoped code
+  - Wider ecosystem tools don't work out of the box as JS context is assumed
+  - Testing format differs from app code
+
+<v-click>
+
+- **Goal:** work using references instead of global string-based resolving
 - **Benefits**
   - Unlocks code splitting
-  - Simplifies Ember internals and offers better performance
   - Flexible layout for file structure
 
-<br />
+
+</v-click>
+
+
+<v-click>
 
 **<twemoji-exclamation-question-mark /> Problem:** How should imports be done in templates?
 
-::right::
+</v-click>
 
 <!-- 
 make components statically resolvable
@@ -174,6 +186,13 @@ Strict mode:
 Before explaining &lt;template&gt; tag components we should take a step back and see where it's coming from.
 
 Also referred to as strict mode.
+
+FROM RFC:
+- naming issues
+  - e.g. component from addon
+  - also hard for new joiners to learn a file in a certain folder makes it available somewhere
+  - Everything is global and public 
+  - External: e.g. styled-components
  -->
 
 
