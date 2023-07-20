@@ -743,14 +743,14 @@ const MyList = <template>
 export default MyList;
 ```
 
-
-<!-- 
-With great power comes great responsibility
+<!--
 - Split components
 - Like you can split functions, lower barrier
 - Seen components get hude overtime
 - Don't overuse
- -->
+
+With great power comes great responsibility
+-->
 
 ---
 layout: four-sections
