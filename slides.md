@@ -27,7 +27,7 @@ fonts:
   </span>
 </div>
 
-<img src="images/otainsight.svg" class="absolute bottom-11 right-16 w-40 rounded shadow" />
+<img src="/images/otainsight.svg" class="absolute bottom-11 right-16 w-40 rounded shadow" />
 
 
 <!--
@@ -113,7 +113,7 @@ layout: four-sections
 
 ::topright::
 
-![octane](images/octane.png)
+![octane](/images/octane.png)
 
 <!-- 
 - Octane had this really nice illustration of Tomster and Zoey
@@ -125,7 +125,7 @@ layout: four-sections
 ### Ember's next Edition
 # Ember 5.0 release post
 
-<img src="images/recommended-highlight.png" />
+<img src="/images/recommended-highlight.png" />
 
 <!-- 
 You don't need to wait until an edition is complete to start using it.
@@ -467,7 +467,7 @@ layout: four-sections
 
 ::topright::
 
-![blog](images/blog.png)
+![blog](/images/blog.png)
 
 <span class="bottom-12 left-16 opacity-60 text-xs text-center block">
   See <a href="https://v5.chriskrycho.com/journal/ember-template-imports/">Ember Template Imports blog series</a> by Chris Krycho
@@ -896,7 +896,7 @@ Allows defining `.gjs` and `.gts` component files
 
 ::topright::
 
-![](images/template-imports-browser.png)
+![](/images/template-imports-browser.png)
 
 
 <span class="bottom-12 left-16 opacity-60 text-xs text-center block">
@@ -1128,7 +1128,7 @@ Registers `glimmer-js` and `glimmer-ts` language and grammars
 
 ::topright::
 
-![blog](images/vscode-glimmer-lifeart.png)
+![blog](/images/vscode-glimmer-lifeart.png)
 
 <span class="bottom-12 left-16 opacity-60 text-xs text-center block">
   The <a href="https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-glimmer-syntax">lifeart.vscode-glimmer-syntax</a> extension on the VS Code Marketplace
@@ -1192,7 +1192,7 @@ layout: four-sections
 - Highlight.js
 - Shiki
 
-![Glimdown](images/shiki.png)
+![Glimdown](/images/shiki.png)
 
 <!--
 - blog or docs website
@@ -1215,7 +1215,7 @@ Fun story:
 
 Interactive tutorial by NullVoxPopuli: [https://tutorial.glimdown.com](https://tutorial.glimdown.com)
 
-![Glimdown](images/glimdown2.png)
+![Glimdown](/images/glimdown2.png)
 
 <!--
 - see in real time what you built
@@ -1251,7 +1251,7 @@ layout: four-sections
 
 ::topright::
 
-![router](images/router.png)
+![router](/images/router.png)
 
 <span class="bottom-12 left-16 opacity-60 text-xs text-center block">
   The Polaris Router <a href="https://github.com/orgs/emberjs/projects/9/views/1?pane=issue&itemId=4812351">roadmap epic</a> on GitHub
@@ -1285,7 +1285,7 @@ layout: four-sections
 
 ::topright::
 
-![router](images/polaris-roadmap.png)
+![router](/images/polaris-roadmap.png)
 
 <span class="bottom-12 left-16 opacity-60 text-xs text-center block">
   The Polaris roadmap on GitHub
@@ -1321,7 +1321,7 @@ layout: four-sections
 
 ::topright::
 
-<img src="images/glimmer.svg" class="absolute right-0" />
+<img src="/images/glimmer.svg" class="absolute right-0" />
 
 <!--
 - incrementally: introduct in older app
